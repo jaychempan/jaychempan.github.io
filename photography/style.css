@@ -139,7 +139,7 @@ p {
 
 .cl p {
     padding-left: 0px;
-    padding-top: 50px;
+    padding-top: 5px;
     text-align: justify;
     width: 640px;
 }
@@ -176,7 +176,8 @@ div#photos {
 
 #projects {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     margin-top: 10px; /* Adjust top margin for spacing */

@@ -1,0 +1,190 @@
+@charset "utf-8";
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a.active { text-decoration: underline; color: #333333; }
+
+.container ul li a:link { text-decoration: none; color: #333333; }
+.container ul li a:active { text-decoration: underline; color: #333333; }
+.container ul li a:visited { text-decoration: none; color: #333333; }
+.container ul li a:hover { text-decoration: none; color: #FFF; background-color: #CCCC00; font-style: normal; }
+
+.title a:link { text-decoration: none; color: #333333; }
+.title a:active { text-decoration: none; color: #333333; }
+.title a:visited { text-decoration: none; color: #333333; }
+.title a:hover { text-decoration: none; color: #FFF; background-color: #CCCC00; font-style: normal; }
+
+/* 
+#menu p.name { 
+    padding-left: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    font-style: bold;
+} */
+
+
+a.yolink:link { text-decoration: none; color: #333333; }
+a.yolink:active { text-decoration: none; color: #333333; }
+a.yolink:visited { text-decoration: none; color: #333333; }
+a.yolink:hover { text-decoration: none; color: #FFF; background-color: #CCCC00; font-style: normal; }
+
+a img { border: none; }
+
+#menu {
+    /* margin: 0;  */
+    /* padding-left: 0px; 
+    padding-top: 20px;  */
+    /* text-align: justify; */
+    /* width: 800px; */
+    /* width: 220px; */
+    /* padding-left: 0px; */
+    /* padding-top: 150px; */
+    /* overflow: auto; */
+    /* text-align:left; */
+    /* top: 0; */
+    /* bottom: 0; */
+	/* left: 0; */
+    /* position: fixed; */
+    /* text-align: justify; */
+    /* height: 100%; */
+	/* background-color: #fff; */
+    margin: 0; 
+    padding-left: 0px; 
+    padding-top: 20px; 
+    text-align: justify;
+    width: 800px;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0 0 18px 0;
+}
+
+#menu ul li.section-title {
+    padding-left: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    font-style: bold;
+ }
+
+#menu ul li.active {
+
+}
+#menu ul li.active a { 
+}
+
+#content {
+    height: 100%;
+    margin: 0 0 0 100px;
+    top: 0;
+    text-align: center;
+}
+
+.container {
+    /* padding: 10px 50px 0px 0px; */
+    font-size: 11px;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-style: normal;
+    color: #333333;
+}
+
+.container2 {
+    /*padding: 30px 0px 0px 0px;*/
+    font-size: 12px;
+    background-color: #ffffff;
+    font-family: arial;
+    color: #333333;
+}
+a.thumb-img:hover {color:#333333; background-color: #ffffff;}
+
+
+#menu ul li {
+    padding-left: 0px;
+}
+.title {
+    text-align: center;
+    padding: 20px 5px 0px 5px;
+    font-size: 14px;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-style: bold;
+    color: #333333;
+}
+
+#content p { margin-bottom: 9px; }
+
+p {
+    margin: 0 10px 9px 10px; /* Adjust margin for spacing around paragraphs */
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    color: #333333;
+}
+
+.cl p {
+    padding-left: 0px;
+    padding-top: 50px;
+    text-align: justify;
+    width: 640px;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+
+
+#img-container	{ 
+    margin: 0; 
+    padding-left: 0px; 
+    padding-top: 20px; 
+    text-align: justify;
+    width: 800px;
+}
+
+div#photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-container p	{ margin: 0; padding: 0 0 12px 0; }
+#img-container img	{ 
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+}
+
+#once { clear: left; }
+
+#projects {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust top margin for spacing */
+    flex-wrap: wrap; /* Allow projects to wrap to the next line */
+}
+
+#projects li {
+    display: inline-block;
+    margin: 0 10px 10px 0; /* Adjust margin for spacing between projects and below */
+    white-space: nowrap; /* Prevent project names from wrapping */
+}

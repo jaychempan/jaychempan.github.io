@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    font-size: 14px; /* Set a base font size for better mobile readability */
+    font-family: Verdana, sans-serif;
+    background: #fff;
+}
+
+a.active,
+.container ul li a,
+.title a,
+a.yolink,
+a.thumb-img:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+a.active,
+a.thumb-img:hover {
+    background-color: #CCCC00;
+    color: #FFF;
+}
+
+.container,
+
+.container ul li a:link { text-decoration: none; color: #333333; }
+.container ul li a:active { text-decoration: underline; color: #333333; }
+.container ul li a:visited { text-decoration: none; color: #333333; }
+.container ul li a:hover { text-decoration: none; color: #FFF; background-color: #CCCC00; font-style: normal; }
+
+.title a:link { text-decoration: none; color: #333333; }
+.title a:active { text-decoration: none; color: #333333; }
+.title a:visited { text-decoration: none; color: #333333; }
+.title a:hover { text-decoration: none; color: #FFF; background-color: #CCCC00; font-style: normal; }
+
+.container2 {
+    padding: 10px; /* Add some padding for better spacing */
+    font-size: 14px; /* Increase font size for better mobile readability */
+    text-align: center;
+}
+
+#menu {
+    padding: 20px 0; /* Adjust padding for better spacing */
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+}
+
+#menu ul li.section-title {
+    font-size: 16px; /* Increase font size for better visibility */
+    font-weight: bold;
+}
+
+#content {
+    margin: 0 10px; /* Add some margin for better spacing */
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px; /* Increase font size for better visibility */
+    font-weight: bold;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    color: purple;
+}
+
+#img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#photos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#img-container img {
+    width: 200px; /* Set a fixed width for the images */
+    height: 200px; /* Set a fixed height for the images */
+    object-fit: cover;
+    margin: 10px; /* Add margin for spacing between images */
+    display: inline-block;
+}
+
+#projects {
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: normal;
+
+}
+
+#projects li {
+    display: block;
+    margin: 0 0 10px 0; /* Adjust margin for better spacing */
+    white-space: normal; /* Allow project names to wrap */
+    text-align: center; /* Center-align the text */
+
+}
+
+#projects li a {
+    display: inline-block;
+    padding: 10px; /* Add padding for space around the text */
+    text-decoration: none;
+    background-color: #ffffff;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    color: blue;
+}
+
+
+#once { clear: left; }
+@media screen and (max-width: 600px) {
+    /* Add specific styles for small screens/mobile devices */
+    body {
+        font-size: 12px;
+    }
+
+    #menu {
+        padding-top: 10px;
+    }
+
+    #content {
+        margin: 0;
+    }
+    #img-container img {
+        width: 100%; /* Display images in a single column on smaller screens */
+        height: auto;
+        margin: 10px 0; /* Adjust margin for spacing on smaller screens */
+    }
+    .title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

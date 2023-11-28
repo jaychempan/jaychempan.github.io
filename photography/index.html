@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)https://lihw.github.io/kashgar/part-i/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Jiancheng's photography</title>
+    
+    <!--<link rel="stylesheet" href="./style.css" type="text/css">-->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+     <script type="text/javascript" src="./photos.js"></script>
+    <!--[if lte IE 6]>
+        <link rel='stylesheet' href='./ie.css' type='text/css' />
+    <![endif]-->
+    <style type="text/css"> @import url(./jquery.thickbox.css); </style>
+    
+    <style type="text/css">
+    a.thickbox { border: none; }
+    a.thickbox img { border: 3px solid #fff; margin: 0 6px 9px 0; }
+    </style>
+    
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./cookie.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setTimeout('move_up()', 1);
+            path = './'    
+            var pages = window.location.href.split('/');
+            var thisProject = pages[pages.length - 2];
+            var thesePhotos = 0;
+            console.log("Opening " + thisProject);
+
+            // Add projects
+            for (var project of photos.projects) {
+                var item = '<li><a href="./';
+                item += project.name + '/index.html';
+                item += '" onclick="do_click();">';
+                titleWords = project.name.split('-');
+                for (var titleWord of titleWords) {
+                    item += titleWord.charAt(0).toUpperCase() + titleWord.slice(1);
+                    item += ' '; 
+                }
+                item = item.trim();
+                item += '</a></li>';
+
+                if (project.name == thisProject) {
+                    thesePhotos = project.photos;
+                }
+
+                $("#projects").append(item);
+            }
+
+            // Add photos
+            for (var i = 1; i <= thesePhotos; i++) {
+                var item = '<a href="./' + thisProject + '/large/' + i + '.JPG" title="" class="thickbox" rel="gallery-plants">';
+                item +=    '<img src="./' + thisProject + '/' + i + '.jpeg" class="thumbnail" alt=""></a>';
+                $("#photos").append(item);
+            }
+
+            // Mark the active link
+            $("[href]").each(function() {
+                if (this.href == window.location.href) {
+                    $(this).addClass("active");
+                }
+            });
+        });
+    </script>
+
+    <!--<script type="text/javascript" src="./thickbox.js"></script>-->
+    <script type="text/javascript" src="./thickbox.js"></script>
+    <script type="text/javascript">
+        var loadingAnim = './';
+    </script>
+    <body class="section-4">
+        <div id="menu">
+        
+        <div class="title">
+        <p class="name">Jiancheng's Photography<br></p>
+        
+        <div class="container">
+        
+        <ul id="projects">
+        <!-- <li class="section-title">Projects</li> -->
+        </ul>
+        
+        <!--<p><a href="http://erisyo.com/contact/contact/">Contact</a></p>-->
+        <!-- you must provide a link to Indexhibit on your site someplace - thank you -->
+        
+        </div> <!-- container -->
+        </div> <!-- title -->
+        </div> <!-- menu -->
+        
+        <div id="content">
+        <div class="container2">
+        
+        <!-- text and image -->
+                
+        <!-- text -->
+        <div class="cl"><p>This is my photography. click top projects.</p></div>
+        
+        <!--photos-->
+        <div id="img-container">
+        <div id="photos">
+        
+        <!-- <img src="IMG_2018.JPG" alt="Description of the image"> -->
+        </div>
+        </div>
+        
+        <!-- end text and image -->
+        
+        </div>
+                
+                
+        </body>
+</head>
+</html>

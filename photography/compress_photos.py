@@ -46,7 +46,12 @@ def compress_images(input_directory, output_directory, quality=85):
 # input_directory = './Beijing/large/'
 # output_directory = './Beijing/'
 
-input_directory = './Greece/large/'
-output_directory = './Greece/'
+# input_directory = './Greece/large/'
+# output_directory = './Greece/'
 
+# input_directory = './Shanghai/large/'
+# output_directory = './Shanghai/'
+
+input_directory = './Suzhou/large/'
+output_directory = './Suzhou/'
 compress_images(input_directory, output_directory, quality=50)

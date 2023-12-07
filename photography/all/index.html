@@ -50,12 +50,21 @@
 
                 $("#projects").append(item);
             }
-            // Add photos with hover effect
+
+            // Add photos and arrange them in rows of 3
             for (var i = 1; i <= thesePhotos; i++) {
                 var item = '<a href="../' + thisProject + '/large/' + i + '.JPG" title="" class="thickbox" rel="gallery-plants">';
                 item += '<img src="../' + thisProject + '/' + i + '.jpeg" class="thumbnail" alt=""></a>';
+
+                // Append the item to the photos container
                 $("#photos").append(item);
+
+                // Add a line break after every third image
+                if (i % 3 === 0) {
+                    $("#photos").append('<br>');
+                }
             }
+
             // Mark the active link
             $("[href]").each(function() {
                 if (this.href == window.location.href) {
@@ -75,6 +84,7 @@
         
         <div class="title">
         <p class="name">Jiancheng's Photography<br></p>
+
         </div> <!-- title -->
         </div> <!-- menu -->
         
@@ -91,7 +101,7 @@
         <div id="photos">
         </div>
         </div>
-
+        
         <!-- end text and image -->
         
         </div>

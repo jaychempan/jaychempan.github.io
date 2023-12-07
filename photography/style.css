@@ -117,13 +117,6 @@ a.thumb-img:hover {
     font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
     color: blue;
 }
-.thumbnail {
-    transition: transform 0.2s ease-in-out; /* Add smooth transition effect */
-}
-
-.thumbnail:hover {
-    transform: scale(1.05); /* Enlarge the image by 5% on hover */
-}
 
 #once { clear: left; }
 @media screen and (max-width: 600px) {

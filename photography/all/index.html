@@ -50,14 +50,12 @@
 
                 $("#projects").append(item);
             }
-
-            // Add photos
+            // Add photos with hover effect
             for (var i = 1; i <= thesePhotos; i++) {
                 var item = '<a href="../' + thisProject + '/large/' + i + '.JPG" title="" class="thickbox" rel="gallery-plants">';
-                item +=    '<img src="../' + thisProject + '/' + i + '.jpeg" class="thumbnail" alt=""></a>';
+                item += '<img src="../' + thisProject + '/' + i + '.jpeg" class="thumbnail" alt=""></a>';
                 $("#photos").append(item);
             }
-
             // Mark the active link
             $("[href]").each(function() {
                 if (this.href == window.location.href) {

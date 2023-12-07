@@ -117,7 +117,24 @@ a.thumb-img:hover {
     font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
     color: blue;
 }
+@keyframes waveAnimation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
 
+.thumbnail {
+    animation: waveAnimation 2s infinite; /* Adjust the duration as needed */
+    transition: transform 0.2s ease-in-out;
+}
+
+.thumbnail:hover {
+    animation: none; /* Pause the animation on hover */
+    transform: scale(1.05);
+}
 
 #once { clear: left; }
 @media screen and (max-width: 600px) {

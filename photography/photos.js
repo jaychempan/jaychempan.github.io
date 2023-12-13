@@ -1,6 +1,6 @@
 
 var photos = {
     "projects": [
-        {"name": "all", "photos": 9},
+        {"name": "all", "photos": 12},
     ],
 };

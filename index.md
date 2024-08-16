@@ -24,6 +24,8 @@ I' m a second-year master student at the Institute of Computer Vision of Zhejian
 
 {% include_relative _includes/honors.md %}
 
+{% include_relative _includes/experiences.md %}
+
 {% include_relative _includes/services.md %}
 
 {% include_relative _includes/memberships.md %}

@@ -20,7 +20,7 @@
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="./assets/css/nav.css">
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
     {% else %}
@@ -36,6 +36,40 @@
 
   </head>
   <body>
+    <div class="topnav">
+
+      <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>
+
+      <div id="myLinks">
+      {% include navigation.md %}
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
+        <i class="fa fa-bars"></i>
+      </a>
+      
+    </div>
+    
+
+    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+        backgroundColor: '#fff',
+        innerHTML: 'Back to Top',
+        textColor: '#333'
+      })
+    </script>
+    <style>
+        #back-to-top {
+          border: 1px solid #ccc;
+          border-radius: 0;
+          font-size: 15px;
+          width: 100px;
+          text-align: center;
+          line-height: 30px;
+          height: 30px;
+        }
+    </style>
+
     <div class="wrapper">
       <header>
         

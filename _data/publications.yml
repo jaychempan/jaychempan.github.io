@@ -1,7 +1,7 @@
 main:
 
   - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
-    authors: <strong>Jiancheng Pan</strong>, Yanxing Liu&ast;, Yuqian Fu&dagger;, Danda Pani Paudel, Luc Van Gool;, Xiaomeng Huang&dagger;
+    authors: <strong>Jiancheng Pan</strong>, Yanxing Liu&ast;, Yuqian Fu&dagger;, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang&dagger;
     conference_short: arXiv'24
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2405.10160
@@ -10,7 +10,7 @@ main:
     image: ./images/papers/lae.png
 
   - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"
-    authors: <strong>Jiancheng Pan</strong>, Muyuan Ma, Qing Ma, Cong Bai&dagger, Shengyong Chen
+    authors: <strong>Jiancheng Pan</strong>, Muyuan Ma, Qing Ma, Cong Bai&dagger;, Shengyong Chen
     conference_short: arXiv'24
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2405.10160
@@ -21,7 +21,7 @@ main:
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma, <strong>Jiancheng Pan</strong>, Cong Bai&dagger;
     conference_short: TGRS'24
-    conference: IEEE Transactions on Geoscience and Remote Sensing <strong>(TGRS)</strong>, 2024. 
+    conference: IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong>, 2024. 
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/dove.png

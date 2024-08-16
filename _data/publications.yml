@@ -1,7 +1,7 @@
 main:
 
   - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
-    authors: <strong>Jiancheng Pan</strong>, Yanxing Liu&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    authors: <strong>Jiancheng Pan</strong>, Yanxing Liu&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Muyuan Ma, Jiaohao Li, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: Preprint
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2405.10160

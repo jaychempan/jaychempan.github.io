@@ -2,7 +2,7 @@
 
 <div class="publications">
 <ol class="bibliography">
-<p>&ast; indicates contributed equally and &dagger; is corresponding author.</p>
+<p>&ast; indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p>
 {% for link in site.data.publications.main %}
 
 <li>

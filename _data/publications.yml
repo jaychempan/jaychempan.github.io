@@ -1,22 +1,48 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
+    authors: <strong>Jiancheng Pan</strong>, Yanxing Liu&ast;, Yuqian Fu&dagger;, Danda Pani Paudel, Luc Van Gool;, Xiaomeng Huang&dagger;
+    conference_short: arXiv'24
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2405.10160
+    code: https://github.com/jaychempan/LAE-DINO/
+    bibtex: ./bibx/pan2024pir.html
+    image: ./images/papers/lae.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"
+    authors: <strong>Jiancheng Pan</strong>, Muyuan Ma, Qing Ma, Cong Bai&dagger, Shengyong Chen
+    conference_short: arXiv'24
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2405.10160
+    code: https://github.com/jaychempan/PIR-CLIP
+    bibtex: ./bibx/pan2024pir.html
+    image: ./images/papers/pir-clip.png
+
+  - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
+    authors: Qing Ma, <strong>Jiancheng Pan</strong>, Cong Bai&dagger;
+    conference_short: TGRS'24
+    conference: IEEE Transactions on Geoscience and Remote Sensing <strong>(TGRS)</strong>, 2024. 
+    pdf: https://ieeexplore.ieee.org/document/10507076
+    bibtex: ./bibx/ma2023direction.html
+    image: ./images/papers/dove.png
+
+  - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
+    authors: <strong>Jiancheng Pan</strong>, Qing Ma, Cong Bai&dagger;
+    conference_short: MM'23
+    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
+    code: https://github.com/jaychempan/PIR
+    bibtex: ./bibx/pan2024pir.html
+    image: ./images/papers/acmmm-pir.png
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
+  - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
+    authors: <strong>Jiancheng Pan</strong>, Qing Ma&dagger;, Cong Bai
+    conference_short: ICMR'23
+    conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/abs/10.1145/3591106.3592236
+    code: https://github.com/jaychempan/SWAN-pytorch
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: ./bibx/pan2023reducing.html
+    notes: Oral Presentation
+    image: ./images/papers/icmr-swan.png

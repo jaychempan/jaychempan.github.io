@@ -13,4 +13,5 @@
 
 <ul style="margin:0 0 20px;">
   <li><a href="https://www.sciencedirect.com/journal/information-fusion"><autocolor>Information Fusion (INFFUS)</autocolor></a></li>
+  <li><a href="https://systems.enpress-publisher.com/index.php/JGC/index"><autocolor>Journal of Geography and Cartography (JGC)</autocolor></a></li>
 </ul>

@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I' m a second-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://homepage.zjut.edu.cn/mq/">Dr. Qing Ma</a> and <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting student at the Department of Earth System Science at Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>. Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. Specifically, I collaborated with <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en">Dr. Yuqian Fu</a> on multimodal related tasks.
+I' m a second-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://homepage.zjut.edu.cn/mq/">Dr. Qing Ma</a> and <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting student at the Department of Earth System Science at Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>. Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. Specifically, I collaborate with <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en">Dr. Yuqian Fu</a> on multimodal related tasks.
 
 ## Research Interests
 

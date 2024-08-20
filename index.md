@@ -13,7 +13,7 @@ I' m a second-year master student at the Institute of Computer Vision of Zhejian
 
 ## News
 
-- **[Aug. 2024]** One paper of LAE-DINO <img src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> is posted at <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">arXiv</a>.
+- **[Aug. 2024]** One paper of LAE-DINO <img src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> is posted at <a href="https://arxiv.org/abs/2408.09110">arXiv</a>.
 - **[Apr. 2024]** One paper is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE TGRS 2024</a>.
 - **[Oct. 2023]** Awarded the <a href="">National Scholarship</a> (Top 0.2%).
 - **[Jul. 2023]** One paper is accepted by <a href="https://www.acmmm2023.org/">ACMMM 2023</a>.

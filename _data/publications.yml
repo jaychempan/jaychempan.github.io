@@ -6,7 +6,7 @@ main:
     conference: Under Review, 2024.
     pdf: http://arxiv.org/abs/2408.09110
     code: https://github.com/jaychempan/LAE-DINO/
-    bibtex: ./bibx/pan2024pir.html
+    bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/papers/lae.png
 
   - title: "PIR-CLIP: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"

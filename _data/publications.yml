@@ -20,16 +20,16 @@ main:
 
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma, <strong>Jiancheng Pan</strong>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: TGRS
-    conference: IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong>, 2024. 
+    conference_short: IEEE TGRS
+    conference: IEEE Transactions on Geoscience and Remote Sensing, 2024. 
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <strong>Jiancheng Pan</strong>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: ACMMM
-    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2023.
+    conference_short: ACMMM'23
+    conference: ACM International Conference on Multimedia, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR
     bibtex: ./bibx/pan2024pir.html
@@ -38,8 +38,8 @@ main:
 
   - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
     authors: <strong>Jiancheng Pan</strong>, Qing Ma<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Cong Bai
-    conference_short: ICMR
-    conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2023.
+    conference_short: ICMR'23
+    conference: ACM International Conference on Multimedia Retrieval, 2023.
     pdf: https://dl.acm.org/doi/abs/10.1145/3591106.3592236
     code: https://github.com/jaychempan/SWAN-pytorch
     bibtex: ./bibx/pan2023reducing.html

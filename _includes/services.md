@@ -12,5 +12,5 @@
 
 <ul style="margin:0 0 20px;">
   <li><autocolor>Information Fusion (INFFUS)</autocolor></li>
-  <li><autocolor>Journal of Geography and Cartography (JGC)</autocolor></li>
+  <!-- <li><autocolor>Journal of Geography and Cartography (JGC)</autocolor></li> -->
 </ul>

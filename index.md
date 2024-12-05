@@ -10,7 +10,7 @@ I' m a third-year master student at the Institute of Computer Vision of Zhejiang
 My research interests include but are not limited to Multimodal Learning, Data-centric AI, Foundation Model with its application on Earth, towards constructing <a href="https://github.com/Earth-Observation-Foundation-Models">Earth Observation Foundation Models</a> (EOFMs). I also focus on challenges within the field of Earth sciences (AI4Earth).
 ## News
 - **[Nov. 2024]** Awarded the <a href="">National Scholarship</a> (Top 1.05%, Ranking 7/664).
-- **[Oct. 2024]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU2024</a> at Washington (Oral).
+- **[Oct. 2024]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU2024</a> at Washington,D.C (Oral).
 - **[Aug. 2024]** One paper of LAE-DINO <img src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> is posted at <a href="https://arxiv.org/abs/2408.09110">arXiv</a>.
 - **[Apr. 2024]** One paper is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE TGRS 2024</a> (CCF-B, IF=7.5).
 - **[Oct. 2023]** Awarded the <a href="">National Scholarship</a> (Top 0.2%, Ranking 1/615).

@@ -29,7 +29,7 @@ main:
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma&ast;, <strong>Jiancheng Pan&ast;</strong>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: IEEE TGRS
-    conference: IEEE Transactions on Geoscience and Remote Sensing, 2024. 
+    conference: IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024. 
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png

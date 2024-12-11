@@ -16,7 +16,7 @@ main:
     code: https://github.com/jaychempan/LAE-DINO/
     bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/papers/lae.png
-    # page: http://gidmodel.org.cn/#firstPage
+    page: https://jianchengpan.space/LAE-website/index.html
     # notes: AGU24 Oral Presentation
 
   - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"

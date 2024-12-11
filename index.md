@@ -31,4 +31,4 @@ My research interests include but are not limited to Multimodal Learning, Data-c
 
 {% include_relative _includes/talks.md %}
 
-{% include_relative _includes/memberships.md %}
+<!-- {% include_relative _includes/memberships.md %} -->

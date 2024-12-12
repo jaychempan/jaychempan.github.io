@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-I' m a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>.
+I am a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>.
 <!-- Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. -->
 
 My research interests include but are not limited to Multimodal Learning, Data-centric AI, Foundation Model with its application on Earth [**AI4Earth**], towards constructing <a href="https://github.com/Earth-Observation-Foundation-Models">Earth Observation Foundation Models</a> [**EOFMs**]. I am also dedicated to tackling challenges in Earth sciences through machine learning, with a particular emphasis on solving socially relevant problems, such as advancing sustainability [**ML4Sustainability**].
 
-<font color="red">I believe in "earning through skills and achieving through collaboration". I am actively seeking internship or co-operation opportunities related to tackling challenges in Earth sciences, particularly in sustainable development.</font>
+I believe in "*earning through skills and achieving through collaboration*". <font color="red">I am actively seeking internship or co-operation opportunities related to tackling challenges in Earth sciences, particularly in sustainable development.</font>
 
 ## News
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (CCF-A).

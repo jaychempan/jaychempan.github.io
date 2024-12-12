@@ -28,10 +28,10 @@ I believe in *earning through skills and achieving through collaboration*. <font
 
 {% include_relative _includes/honors.md %}
 
-<!-- {% include_relative _includes/experiences.md %} -->
-
 {% include_relative _includes/services.md %}
 
 {% include_relative _includes/talks.md %}
+
+{% include_relative _includes/experiences.md %}
 
 <!-- {% include_relative _includes/memberships.md %} -->

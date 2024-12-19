@@ -12,7 +12,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 <!-- - **AI4EO**: Multimodal Learning, Data-centric AI, Foundation Model -->
 <!-- - **AI4Earth**: ML4Sustainability -->
 
-I believe in *earning through skills and achieving through collaboration*. <font color="blue">I am actively seeking internship or co-operation opportunities related to tackling challenges in Earth science with GeoAI technologies, particularly in sustainable development.</font>
+I believe in *earning through skills and achieving through collaboration*. <font color="blue">I am actively seeking internship or co-operation opportunities related to tackling challenges in Earth science with GeoAI technologies, particularly in sustainable development</font>. If you are also similarly working on related research, feel free to discuss and communicate with me.
 
 ## News
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (CCF-A).

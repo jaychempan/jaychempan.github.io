@@ -11,7 +11,7 @@ main:
   - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
     authors: <strong>Jiancheng Pan&ast;</strong>, Yanxing Liu&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Muyuan Ma, Jiaohao Li, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: AAAI'25
-    conference: AAAI Conference on Artificial Intelligence (AAAI), 2025.
+    conference: AAAI Conference on Artificial Intelligence, 2025.
     pdf: http://arxiv.org/abs/2408.09110
     code: https://github.com/jaychempan/LAE-DINO/
     bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
@@ -31,7 +31,7 @@ main:
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma&ast;, <strong>Jiancheng Pan&ast;</strong>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: TGRS'24
-    conference: IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024. 
+    conference: IEEE Transactions on Geoscience and Remote Sensing, 2024. 
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png
@@ -39,7 +39,7 @@ main:
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <strong>Jiancheng Pan</strong>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: ACMMM'23
-    conference: ACM International Conference on Multimedia (ACMMM), 2023.
+    conference: ACM International Conference on Multimedia, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR
     bibtex: ./bibx/pan2024pir.html
@@ -49,7 +49,7 @@ main:
   - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
     authors: <strong>Jiancheng Pan</strong>, Qing Ma<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Cong Bai
     conference_short: ICMR'23
-    conference: ACM International Conference on Multimedia Retrieval (ICMR), 2023.
+    conference: ACM International Conference on Multimedia Retrieval, 2023.
     pdf: https://dl.acm.org/doi/abs/10.1145/3591106.3592236
     code: https://github.com/jaychempan/SWAN-pytorch
     bibtex: ./bibx/pan2023reducing.html

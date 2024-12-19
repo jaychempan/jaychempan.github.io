@@ -22,7 +22,7 @@ I believe in *earning through skills and achieving through collaboration*. <font
 - **[Apr. 2024]** One paper is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE TGRS 2024</a> (CCF-B, IF=7.5).
 - **[Oct. 2023]** Awarded the <a href="">National Scholarship</a> (Top 0.2%, Ranking 1/615).
 - **[Jul. 2023]** One paper is accepted by <a href="https://www.acmmm2023.org/">ACMMM 2023</a> (CCF-A, Oral).
-- **[Apr. 2023]** Successfully apply for ICMR Travel Award (2000$).
+- **[Apr. 2023]** Successfully apply for ICMR Travel Scholarship (2000$).
 - **[Apr. 2023]** One paper is accepted by <a href="https://icmr2023.org/">ICMR 2023</a> (CCF-B, Oral).
 
 {% include_relative _includes/publications.md %}

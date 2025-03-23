@@ -19,7 +19,7 @@ I believe in *<u>earning through skills and achieving through collaboration</u>*
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (CCF-A).
 - **[Nov. 2024]** Awarded the <a href="">National Scholarship</a> (Top 1.05%, Ranking 7/664).
 - **[Oct. 2024]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU2024</a> at Washington,D.C (Oral).
-- **[Aug. 2024]** One paper of LAE-DINO <img src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> is posted at <a href="https://arxiv.org/abs/2408.09110">arXiv</a>.
+- **[Aug. 2024]** First largest RS foundation detector <a href="https://arxiv.org/abs/2408.09110">LAE-DINO</a> <img src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> is proposed.
 - **[Apr. 2024]** One paper is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36">IEEE TGRS 2024</a> (CCF-B, IF=7.5).
 - **[Oct. 2023]** Awarded the <a href="">National Scholarship</a> (Top 0.2%, Ranking 1/615).
 - **[Jul. 2023]** One paper is accepted by <a href="https://www.acmmm2023.org/">ACMMM 2023</a> (CCF-A, Oral).

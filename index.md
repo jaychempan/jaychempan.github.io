@@ -15,7 +15,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 I believe in *<u>earning through skills and achieving through collaboration</u>*. <font color="blue">I am actively seeking internship or co-operation opportunities related to tackling challenges the field of Earth sciences with GeoAI technologies, particularly in sustainable development</font>. If you are also similarly working on related research, feel free to discuss and communicate with me.
 
 ## News
-- **[Mar. 2025]** Two paper are accepted by <a href="https://www.2025.ieeeigarss.org/index.php">IGARSS 2025</a>. Congrats to Yanxing and Jiahao.
+- **[Mar. 2025]** Two papers are accepted by <a href="https://www.2025.ieeeigarss.org/index.php">IGARSS 2025</a>. Congrats to Yanxing and Jiahao.
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (CCF-A).
 - **[Nov. 2024]** Awarded the <a href="">National Scholarship</a> (Top 1.05%, Ranking 7/664).
 - **[Oct. 2024]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU2024</a> at Washington,D.C (Oral).

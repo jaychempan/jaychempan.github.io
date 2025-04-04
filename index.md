@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>). I am a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a> (The learning here has led me to attempt interdisciplinary research combining AI and geosciences). Honorably, I will be research internship at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology (INSAIT)</a>, Sofia, Bulgaria, working with Prof. <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a>.
+Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>). I am a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a> (The learning here has led me to attempt interdisciplinary research combining AI and geosciences). Honorably, I will be research internship at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology </a> (INSAIT, Sofia, Bulgaria), working with Prof. <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a>.
 <!-- Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. -->
 
 <!-- ## Research Interests -->
@@ -15,7 +15,6 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 I believe in *<u>earning through skills and achieving through collaboration</u>*. <font color="blue">I am actively seeking internship or co-operation opportunities related to tackling challenges the field of Earth sciences with GeoAI technologies, particularly in sustainable development.</font> If you are also similarly working on related research, feel free to discuss and communicate with me.
 
 ## News
-
 - **[Apr. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com//">CVPRW 2025</a> (CVPR 2025 Workshop).
 - **[Apr. 2025]** Successfully apply for <a href="https://insait.ai/grf/">INSAIT Graduate Research Fellowship</a>.
 - **[Mar. 2025]** Runner-up in the <a href="https://codalab.lisn.upsaclay.fr/competitions/21851#learn_the_details">NTIRE 2025 CD-FSOD Challenge</a> (Team Leader), CVPR 2025. 

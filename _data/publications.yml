@@ -1,4 +1,15 @@
 main:
+
+  - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
+    authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: CVPRW'25
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop, 2025.
+    pdf: http://arxiv.org/abs/2408.09111
+    code: https://github.com/jaychempan/ETS/
+    bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/papers/ets.png
+    notes: NTIRE2025 Challenge Runner-up
+
   - title: "InfoEA: Information-Based Remote Sensing Image-Text Embedding Alignment Via Bottleneck"
     authors: Qing Ma, Hongze Ni, <u><strong>Jiancheng Pan</strong></u>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen
     conference_short: Preprint
@@ -38,7 +49,7 @@ main:
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: ACMMM'23
+    conference_short: MM'23
     conference: ACM International Conference on Multimedia, 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR

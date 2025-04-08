@@ -3,10 +3,10 @@ main:
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
     authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: CVPRW'25
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop, 2025.
-    pdf: http://arxiv.org/abs/2408.09111
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2025.
+    pdf: https://arxiv.org/abs/2504.04517
     code: https://github.com/jaychempan/ETS/
-    bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/ets.png
     notes: NTIRE2025 Challenge Runner-up
 
@@ -16,7 +16,7 @@ main:
     conference: Under Review, 2024.
     pdf: http://arxiv.org/abs/2408.09111
     code: https://github.com/jaychempan/LAE-DINO/
-    bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    bibtex: ./bibx/pan2024locate.html
     image: ./images/papers/infoea.png
 
   - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
@@ -25,7 +25,7 @@ main:
     conference: AAAI Conference on Artificial Intelligence, 2025.
     pdf: http://arxiv.org/abs/2408.09110
     code: https://github.com/jaychempan/LAE-DINO/
-    bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    bibtex: ./bibx/pan2024locate.html
     image: ./images/papers/lae.png
     page: https://jianchengpan.space/LAE-website/index.html
     notes: AGU24 Oral Presentation

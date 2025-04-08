@@ -15,7 +15,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 I believe in *<u>earning through skills and achieving through collaboration</u>*. <font color="blue">I am actively seeking internship or co-operation opportunities related to tackling challenges the field of Earth sciences with GeoAI technologies, particularly in sustainable development.</font> If you are also similarly working on related research, feel free to discuss and communicate with me.
 
 ## News
-- **[Apr. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com//">CVPRW 2025</a> (CVPR 2025 Workshop).
+- **[Apr. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com//">CVPRW 2025</a> (NTIRE2025 Challenge).
 - **[Apr. 2025]** Successfully apply for <a href="https://insait.ai/grf/">INSAIT Graduate Research Fellowship</a>.
 - **[Mar. 2025]** Runner-up in the <a href="https://codalab.lisn.upsaclay.fr/competitions/21851#learn_the_details">NTIRE 2025 CD-FSOD Challenge</a> (Team Leader), CVPR 2025. 
 - **[Mar. 2025]** Two papers are accepted by <a href="https://www.2025.ieeeigarss.org/index.php">IGARSS 2025</a>. Congrats to Yanxing and Jiahao.

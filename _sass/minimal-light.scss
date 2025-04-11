@@ -613,7 +613,8 @@ footer {
 .highlight {
   background-color: #fff9db; /* 高亮颜色，可替换为你喜欢的颜色 */
   border-left: 5px solid #f1c40f; /* 左边加条强调线条，可选 */
-  // padding: 10px;
+  border-right: 5px solid #f1c40f; /* 左边加条强调线条，可选 */
+  padding: 7px 0px 7px;
   border-radius: 5px;
 }
 @media (prefers-color-scheme: dark) {

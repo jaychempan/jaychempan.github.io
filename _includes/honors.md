@@ -1,4 +1,7 @@
-## Honors
+<!-- ## Honors -->
+<h2>
+  Honors
+</h2>
 
 <ul style="margin:0 0 5px;">
   <li>INSAIT Graduate Research Fellowship (Sofia, Bulgaria), 2025</li>

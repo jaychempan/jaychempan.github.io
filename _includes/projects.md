@@ -1,4 +1,7 @@
-<h2 id="projects" style="margin: 2px 0px -15px;">Projects</h2>
+<!-- <h2 id="projects" style="margin: 2px 0px -15px;">Projects</h2> -->
+<h2 id="projects">
+Projects
+</h2>
 
 <div class="publications">
 <ol class="bibliography">

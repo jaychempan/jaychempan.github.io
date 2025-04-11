@@ -29,6 +29,7 @@ main:
     image: ./images/papers/lae.png
     page: https://jianchengpan.space/LAE-website/index.html
     notes: AGU24 Oral Presentation
+    highlight: true
 
   - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"
     authors: <u><strong>Jiancheng Pan</strong></u>, Muyuan Ma, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen

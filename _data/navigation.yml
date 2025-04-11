@@ -1,11 +1,28 @@
 main:
+  - title: "Internships"
+    url: ./#internships
+    right: true 
+
+  - title: "Talks"
+    url: ./#talks
+    # right: true 
+
+  - title: "Services"
+    url: ./#services
+    # right: true 
+
+  - title: "Honors"
+    url: ./#honors
+    # right: true 
+    
   - title: "Projects"
     url: ./#projects
-    right: true 
+    # right: true 
     
   - title: "Publications"
     url: ./#publications
     # right: true 
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Biography"
+    url: ./#biography
+

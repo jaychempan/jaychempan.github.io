@@ -1,4 +1,7 @@
-## Memberships
+<!-- ## Memberships -->
+<h2>
+  Memberships
+</h2>
 <ul style="margin:0 0 5px;">
   <li>ACM SIGMM Member <img src="images/sigmm-member.png" style="vertical-align: middle;" alt="Logo" width="50"></li>
   <li>IEEE Student Member <img src="images/ieee-member.png" style="vertical-align: middle;" alt="Logo" width="50"></li>

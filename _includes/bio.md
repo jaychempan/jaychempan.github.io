@@ -2,7 +2,7 @@
 <!-- <h2 style="margin: 15px 0px 15px; color: #043361; font-weight: 500; font-size: 157%; background-color: #f5f5f5; padding: 5px 10px; border-radius: 4px;">
   About Me
 </h2> -->
-<h2>
+<h2 id="biography">
 Biography
 </h2>
 

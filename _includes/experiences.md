@@ -1,5 +1,5 @@
 <!-- ## Internships -->
-<h2>
+<h2 id="internships">
   Internships
 </h2>
 <ul style="margin:0 0 5px;">

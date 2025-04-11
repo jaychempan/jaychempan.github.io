@@ -1,5 +1,5 @@
 <!-- ## Talks -->
-<h2>
+<h2 id="talks">
   Talks
 </h2>
 <ul style="margin:0 0 5px;">

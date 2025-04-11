@@ -1,5 +1,5 @@
 <!-- ## Honors -->
-<h2>
+<h2 id="honors">
   Honors
 </h2>
 

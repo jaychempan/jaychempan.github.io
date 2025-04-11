@@ -1,5 +1,5 @@
 <!-- ## News -->
-<h2>
+<h2 id="news">
 News
 </h2>
 

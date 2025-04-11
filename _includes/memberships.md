@@ -1,5 +1,5 @@
 <!-- ## Memberships -->
-<h2>
+<h2 id="memberships">
   Memberships
 </h2>
 <ul style="margin:0 0 5px;">

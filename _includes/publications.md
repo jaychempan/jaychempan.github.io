@@ -39,7 +39,7 @@
       {% endif %}
       {% if link.notes %} 
       <!-- <i class="note" style="color:#e74d3c">{{ link.notes }}</i> -->
-      <span style="color: #e74d3c; font-weight: bold; font-size: 0.8em; font-family: Arial; padding: 2px 6px; border-radius: 4px;">
+      <span style="color: #e74d3c; font-weight: bold; font-size: 0.9em;">
         {{ link.notes }}
       </span>
       {% endif %}

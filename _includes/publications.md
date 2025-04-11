@@ -38,7 +38,10 @@
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
       {% if link.notes %} 
-      <i class="note" style="color:#e74d3c">{{ link.notes }}</i>
+      <!-- <i class="note" style="color:#e74d3c">{{ link.notes }}</i> -->
+      <span style="color: #e74d3c; font-weight: bold; font-size: 0.8em; font-family: Arial; padding: 2px 6px; border-radius: 4px;">
+        {{ link.notes }}
+      </span>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}

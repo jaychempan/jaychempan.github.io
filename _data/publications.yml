@@ -9,7 +9,7 @@ main:
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/ets.png
     notes: NTIRE2025 Challenge Runner-up
-    highlight: true
+    # highlight: true
 
   - title: "InfoEA: Information-Based Remote Sensing Image-Text Embedding Alignment Via Bottleneck"
     authors: Qing Ma, Hongze Ni, <u><strong>Jiancheng Pan</strong></u>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen
@@ -58,7 +58,7 @@ main:
     bibtex: ./bibx/pan2024pir.html
     image: ./images/papers/acmmm-pir.png
     notes: Oral Presentation
-    highlight: true
+    # highlight: true
 
   - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Cong Bai

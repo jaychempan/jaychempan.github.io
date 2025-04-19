@@ -55,7 +55,7 @@ main:
     conference: ACM International Conference on Multimedia (ACM MM), 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR
-    bibtex: ./bibx/pan2024pir.html
+    bibtex: ./bibx/pan2023pir.html
     image: ./images/papers/acmmm-pir.png
     notes: Oral Presentation
     # highlight: true

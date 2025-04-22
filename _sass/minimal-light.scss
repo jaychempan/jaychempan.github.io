@@ -1,3 +1,28 @@
+/* 🌍 添加浅色地球背景图 */
+body {
+  position: relative;
+  background-color: #fdfdfd;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./The_Earth_seen_from_Apollo_17.png');
+  background-repeat: no-repeat;
+  // background-position: center center;
+  background-position: left bottom; /* 👈 右下角 */
+  background-size: 400px auto; /* 控制地球图大小，可调大调小 */
+  background-attachment: fixed;
+  opacity: 0.08;  /* 透明度，适当减小不会干扰阅读 */
+  z-index: -1;
+  pointer-events: none;  /* 避免干扰页面交互 */
+}
+
+
 .pub-row {
   display: flex; 
   align-items: center;}

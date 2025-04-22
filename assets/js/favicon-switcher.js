@@ -5,9 +5,26 @@ function collectLinks() {
   )
 }
 
-function applyLink(source, target) {
-  target.setAttribute('type', source.getAttribute('type'))
-  target.setAttribute('href', source.getAttribute('href'))
+// function applyLink(source, target) {
+//   target.setAttribute('type', source.getAttribute('type'))
+//   target.setAttribute('href', source.getAttribute('href'))
+// }
+
+function applyLink(source, current) {
+  const newLink = document.createElement('link')
+  newLink.setAttribute('rel', 'icon')
+  newLink.setAttribute('type', source.getAttribute('type'))
+
+  // 添加时间戳以避免缓存（强制刷新动画）
+  const baseHref = source.getAttribute('href')
+  const hrefWithTimestamp = baseHref + '?t=' + new Date().getTime()
+  newLink.setAttribute('href', hrefWithTimestamp)
+
+  if (current.parentNode) {
+    current.parentNode.replaceChild(newLink, current)
+  }
+
+  return newLink
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -62,3 +79,4 @@ function initSwitcher(delay) {
 
 initSwitcher()
 })()
+

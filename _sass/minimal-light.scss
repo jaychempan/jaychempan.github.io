@@ -35,6 +35,16 @@
       }
      */
 
+@font-face {
+      font-family: "AR PL KaitiM GB";
+      src: url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.eot");
+      src: url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.svg#AR PL KaitiM GB")format("svg");
+  }
+
 @media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
     transform: scale(1.2)} 

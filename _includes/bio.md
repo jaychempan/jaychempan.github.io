@@ -3,7 +3,7 @@
   About Me
 </h2> -->
 <h2 id="biography">
-Biography
+About Me
 </h2>
 
 Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>). I am a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a> (The learning here has led me to attempt interdisciplinary research combining AI and geosciences). Honorably, I will be research internship at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology </a> (INSAIT, Sofia, Bulgaria), working with <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Prof. Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a> on Multi-modal LLMs for Earth Observation.

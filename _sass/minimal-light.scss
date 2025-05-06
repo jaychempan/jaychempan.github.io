@@ -362,6 +362,17 @@ img {
   max-width:100%;
 }
 
+.mini-img {
+  max-width:100%;
+}
+@media (prefers-color-scheme: dark) {
+  .mini-img  {
+    background-color: #ffffff30; /* 浅蓝色 */
+    padding: 1px 1px 1px;
+    border-radius: 5px;
+  }
+}
+
 header {
   width:232px;
   float:left;
@@ -633,7 +644,8 @@ footer {
 .highlightone {
   background-color: #fce4ec; /* 浅黄色 */
 }
-  @media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: dark) {
   .highlightone {
     background-color: #3498db57; /* 浅蓝色 */
   }

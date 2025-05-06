@@ -24,10 +24,10 @@ camera: http://mrherod.cn:9999/photography/all/
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./images/prof_pic_3.png 
-# favicon: ./images/redketchup/favicon.ico
-# favicon_dark: ./images/redketchup/favicon.ico
-favicon: ./images/redketchup/favicon.gif
-favicon_dark: ./images/redketchup/favicon.gif
+favicon: ./images/redketchup/favicon.ico
+favicon_dark: ./images/redketchup/favicon.ico
+# favicon: ./images/redketchup/favicon.gif
+# favicon_dark: ./images/redketchup/favicon.gif
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

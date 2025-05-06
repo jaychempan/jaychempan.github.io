@@ -28,7 +28,7 @@ main:
     code: https://github.com/jaychempan/LAE-DINO/
     bibtex: ./bibx/pan2024locate.html
     image: ./images/papers/lae.png
-    page: https://jianchengpan.space/LAE-website/index.html
+    page: https://jianchengpan.space/LAE-website/
     notes: AGU24 Oral Presentation
     highlight: true
 

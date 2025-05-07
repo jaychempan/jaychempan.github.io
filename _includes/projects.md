@@ -19,7 +19,7 @@ Projects
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="title auto-kaiti"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="shortinfo">{{ link.shortinfo }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -58,3 +58,16 @@ Projects
 </ol>
 </div>
 
+<!-- 加上中文字体样式和JS自动识别 -->
+<style>
+.chinese {
+  font-family: 'Ma Shan Zheng', 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', serif;
+}
+</style>
+
+<script>
+// 自动识别并给中文加上楷体字体
+document.querySelectorAll('.auto-kaiti').forEach(el => {
+  el.innerHTML = el.innerHTML.replace(/([\u4e00-\u9fa5]+)/g, '<span class="chinese">$1</span>');
+});
+</script>

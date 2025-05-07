@@ -6,9 +6,10 @@ main:
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2025.
     pdf: https://arxiv.org/abs/2504.04517
     code: https://github.com/jaychempan/ETS/
+    benchmark: https://paperswithcode.com/task/cross-domain-few-shot-object-detection/latest/
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/ets.png
-    notes: NTIRE2025 Challenge Runner-up
+    notes: NTIRE25 Challenge Runner-up
     # highlight: true
 
   - title: "InfoEA: Information-Based Remote Sensing Image-Text Embedding Alignment Via Bottleneck"

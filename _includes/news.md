@@ -2,7 +2,6 @@
 <h2 id="news">
 News
 </h2>
-
 - **[Apr. 2025]** I have reached 100+ citations of <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en">Google Scholar</a> <img class="mini-img"  src="images/google-scholar.png" style="vertical-align: middle;" alt="Logo" width="15">.
 - **[Apr. 2025]** One paper is selected poster presentation by <a href="https://valser.org/2025/">VALSE 2025</a> <img class="mini-img"  src="images/VALSE-logo.png" style="vertical-align: middle;" alt="Logo" width="22"> (Zhuhai, China).
 - **[Apr. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com//">CVPRW 2025</a> <img class="mini-img"  src="images/NTIRE-logo.png" style="vertical-align: middle;" alt="Logo" width="18"> (NTIRE2025 Challenge).

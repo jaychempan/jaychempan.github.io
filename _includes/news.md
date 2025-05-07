@@ -3,7 +3,7 @@
 News
 </h2>
 - **[Apr. 2025]** I have reached 100+ citations of <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en">Google Scholar</a> <img class="mini-img"  src="images/google-scholar.png" style="vertical-align: middle;" alt="Logo" width="15">.
-- **[Apr. 2025]** One paper is selected poster presentation by <a href="https://valser.org/2025/">VALSE 2025</a> <img class="mini-img"  src="images/VALSE-logo.png" style="vertical-align: middle;" alt="Logo" width="22"> (Zhuhai, China).
+- **[Apr. 2025]** One paper is selected poster presentation by <a href="https://valser.org/2025/">VALSE 2025</a> <img class="mini-img"  src="images/VALSE-logo.png" style="vertical-align: middle;" alt="Logo" width="22"> at Zhuhai, China.
 - **[Apr. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com//">CVPRW 2025</a> <img class="mini-img"  src="images/NTIRE-logo.png" style="vertical-align: middle;" alt="Logo" width="18"> (NTIRE2025 Challenge).
 - **[Apr. 2025]** Successfully apply for <a href="https://insait.ai/grf/">INSAIT Graduate Research Fellowship</a>.
 - **[Mar. 2025]** Runner-up in the <a href="https://codalab.lisn.upsaclay.fr/competitions/21851#learn_the_details">NTIRE 2025 Challenge </a><img class="mini-img"  src="images/NTIRE-logo.png" style="vertical-align: middle;" alt="Logo" width="18"> (Team Leader), CVPRW 2025. 

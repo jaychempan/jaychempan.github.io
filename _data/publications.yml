@@ -1,5 +1,6 @@
 main:
 
+
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
     authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: CVPRW'25
@@ -56,6 +57,7 @@ main:
     conference: ACM International Conference on Multimedia (ACM MM), 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR
+    benchmark: https://paperswithcode.com/task/cross-modal-retrieval
     bibtex: ./bibx/pan2023prior.html
     image: ./images/papers/acmmm-pir.png
     notes: Oral Presentation

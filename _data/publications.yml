@@ -1,6 +1,5 @@
 main:
 
-
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
     authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: CVPRW'25
@@ -13,6 +12,23 @@ main:
     notes: NTIRE25 Challenge Runner-up
     # highlight: true
 
+  - title: "Control Copy-Paste: Controllable Diffusion-Based Augmentation Method for Remote Sensing Few-Shot Object Detection"
+    authors: Yanxing Liu, <u><strong>Jiancheng Pan</strong></u>, Bingchen Zhang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: IGARSS'25
+    conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.
+    pdf: https://arxiv.org/abs/2504.04517
+    bibtex: ./bibx/pan2025enhance.html
+    image: ./images/papers/contolcv.png
+
+  - title: "Semantic-Aware Ship Detection with Vison-Language Integration"
+    authors: Jiahao Li, <u><strong>Jiancheng Pan</strong></u>, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: IGARSS'25
+    conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.
+    pdf: https://arxiv.org/abs/2504.04517
+    bibtex: ./bibx/pan2025enhance.html
+    image: ./images/papers/shipdet.png
+    notes: Oral Presentation
+    
   - title: "InfoEA: Information-Based Remote Sensing Image-Text Embedding Alignment Via Bottleneck"
     authors: Qing Ma, Hongze Ni, <u><strong>Jiancheng Pan</strong></u>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen
     conference_short: Preprint

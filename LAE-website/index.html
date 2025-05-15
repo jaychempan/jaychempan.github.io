@@ -5,8 +5,7 @@
   <meta name="description"
         content="Cross-Domain Few-Shot Object Detection via
         Enhanced Open-Set Object Detector">
-  <meta name="keywords" content="Cross-Domain Few-Shot Learning · Few-Shot Object De-
-  tection · Open-Set Detector">
+  <meta name="keywords" content="Open-Set Detector">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LAE-DINO</title>
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
@@ -26,7 +25,7 @@
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+  <!-- <script src="./static/js/index.js"></script> -->
 </head>
 <body>
 
@@ -57,7 +56,11 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title"> <img width="50" alt="image" src="./assets/lae-dino.png"> Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community</h1>
-          <h2><font color=#2980B9 size="5">AAAI 2025</font></h2> <br>
+          <!-- <h2><img class="mini-img"  src="./assets/aaai-logo.png" style="vertical-align: middle;" alt="Logo" width="35"> <font color=#2980B9 size="5">AAAI 2025</font></h2> <br> -->
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+            <img src="./assets/aaai-logo.png" alt="Logo" width="35" style="margin-right: 10px;">
+            <span style="color: #2980B9; font-size: 1.8em; font-weight: bold;">AAAI 2025</span>
+          </div> <br>          
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao">Jiancheng Pan<sup>*1,2</sup>, </a>
@@ -104,6 +107,15 @@
                 </a>
               </span>
               <span class="link-block">
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32672"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>AAAI'25</span>
+                </a>
+              </span>
+              <span class="link-block">
                 <a href="https://github.com/jaychempan/LAE-DINO/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -114,7 +126,7 @@
               </span>
               <!-- Video Link. -->
              <span class="link-block">
-               <a href=""
+               <a href="https://www.bilibili.com/video/BV1YWAkeMEGz/?spm_id_from=333.1387.homepage.video_card.click&vd_source=40fc045441ed1b48b1aed8335b273fee"
                   class="external-link button is-normal is-rounded is-dark">
                  <span class="icon">
                      <i class="fab fa-youtube"></i>
@@ -258,15 +270,15 @@
     <h2 class="title">Citation</h2>
     <b>Please consider cite us if you find our dataset, or model is useful to you.</b>
     <pre><code>
-      @misc{pan2024locateearthadvancingopenvocabulary,
-        title={Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community}, 
-        author={Jiancheng Pan and Yanxing Liu and Yuqian Fu and Muyuan Ma and Jiaohao Li and Danda Pani Paudel and Luc Van Gool and Xiaomeng Huang},
-        year={2024},
-        eprint={2408.09110},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2408.09110}, 
-    }
+      @inproceedings{pan2025locate,
+        title={Locate anything on earth: Advancing open-vocabulary object detection for remote sensing community},
+        author={Pan, Jiancheng and Liu, Yanxing and Fu, Yuqian and Ma, Muyuan and Li, Jiahao and Paudel, Danda Pani and Van Gool, Luc and Huang, Xiaomeng},
+        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+        volume={39},
+        number={6},
+        pages={6281--6289},
+        year={2025}
+      }      
     </code></pre>
   </div>
 </section>

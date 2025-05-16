@@ -1,4 +1,14 @@
 main:
+  - title: "EarthSynth: Generating Informative Earth Observation with Diffusion Models"
+    authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Shiye Lei&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Jiahao Li, Yanxing Liu, Yuze Sun, Xiao He, Long Peng, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Bo Zhao<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: https://arxiv.org/abs/2504.04517
+    code: https://github.com/jaychempan/EarthSynth/
+    bibtex: ./bibx/pan2025enhance.html
+    image: ./images/papers/earthsy.png
+    page: https://jianchengpan.space/EarthSynth-website/
+    highlight: true
 
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
     authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>

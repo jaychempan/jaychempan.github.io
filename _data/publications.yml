@@ -52,7 +52,7 @@ main:
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Yanxing Liu&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Muyuan Ma, Jiahao Li, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: AAAI'25
     conference: AAAI Conference on Artificial Intelligence (AAAI), 2025.
-    pdf: http://arxiv.org/abs/2408.09110
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/32672
     code: https://github.com/jaychempan/LAE-DINO/
     bibtex: ./bibx/pan2024locate.html
     image: ./images/papers/lae.png

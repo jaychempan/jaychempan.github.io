@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Cross-Domain Few-Shot Object Detection via
-        Enhanced Open-Set Object Detector">
-  <meta name="keywords" content="Open-Set Detector">
+        content="">
+  <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LAE-DINO</title>
-  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <title>EarthSynth</title>
+  <link rel="icon" href="./assets/EarthSy.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -55,42 +54,48 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"> <img width="50" alt="image" src="./assets/lae-dino.png"> Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community</h1>
+          <h1 class="title is-1 publication-title"> <img width="70" alt="image" src="./assets/EarthSy.png"> <span style="color: #13a432; font-weight: bold;">EarthSynth</span>: Generating Informative Earth Observation with Diffusion Models</h1>
           <!-- <h2><img class="mini-img"  src="./assets/aaai-logo.png" style="vertical-align: middle;" alt="Logo" width="35"> <font color=#2980B9 size="5">AAAI 2025</font></h2> <br> -->
           <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
-            <img src="./assets/aaai-logo.png" alt="Logo" width="35" style="margin-right: 10px;">
-            <span style="color: #2980B9; font-size: 1.8em; font-weight: bold;">AAAI 2025</span>
-          </div> <br>          
+            <!-- <img src="./assets/aaai-logo.png" alt="Logo" width="35" style="margin-right: 10px;"> -->
+            <!-- <span style="color: #2980B9; font-size: 1.8em; font-weight: bold;">AAAI 2025</span> -->
+            <span style="color: #2980B9; font-size: 1.8em; font-weight: bold;">ArXiv 2025</span>
+          </div> <br> 
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao">Jiancheng Pan<sup>*1,2</sup>, </a>
+              <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao">Jiancheng Pan<sup>*1</sup>, </a>
             </span>
             <span class="author-block">
-              <div>Yanxing Liu<sup>*3</sup>, </div>
+              <a href="https://scholar.google.com/citations?user=k3-RdRgAAAAJ&hl=en">Shiye Lei<sup>*2</sup>, </a>
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en&oi=ao">Yuqian Fu†<sup>4,5</sup>, </a>
+              <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en&oi=ao">Yuqian Fu†<sup>3</sup>, </a>
             </span>
-            <span class="author-block">
-              <div>Muyuan Ma<sup>1</sup>, </div>  
-            </span> <br>
             <span class="author-block">
               <div>Jiahao Li<sup>1</sup>, </div>
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=en">Danda Pani Paudel<sup>5</sup></a>,
-              <!-- <div>Danda Pani Paudel<sup>4,5</sup>, </div> -->
+              <div>Yanxing Liu<sup>4</sup>, </div>
+            </span><br>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=fWi66HcAAAAJ&hl=en">Xiao He<sup>5</sup>, </a>
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool<sup>4,5</sup></a>,
+              <div>Yuze Sun<sup>1</sup>, </div>  
+            </span>
+            <span class="author-block">
+              <div>Long Peng<sup>6</sup>, </div>  
             </span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Xiaomeng Huang†<sup>1</sup></a>,
               <!-- <div>Xiaomeng Huang†<sup>1</sup></div> -->
             </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=R3_AR5EAAAAJ&hl=en">Bo Zhao†<sup>7</sup></a>,
+            </span>
           </div>
           <br>
-          <h2><font color=#424949 size="3"> <sup>1</sup>Tsinghua University, <sup>2</sup>Zhejiang University of Technology, <sup>3</sup>University of Chinese Academy of Sciences, <sup>4</sup>ETH Zürich, <sup>5</sup>INSAIT</font></h2>
+          <h2><font color=#424949 size="3"> <sup>1</sup>Tsinghua University, <sup>2</sup>University of Sydney, <sup>3</sup>INSAIT, Sofia University "St. Kliment Ohridski", <sup>4</sup>University of Chinese Academy of Sciences, <sup>5</sup>Wuhan University, <sup>6</sup>University of Science and Technology of China , <sup>7</sup>Shanghai Jiao Tong University</font></h2>
           <br>
           <img width="500" alt="image" src="./assets/inst.png">
           <br>
@@ -106,7 +111,7 @@
                   <span>ArXiv</span>
                 </a>
               </span>
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32672"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -114,9 +119,9 @@
                   </span>
                   <span>AAAI'25</span>
                 </a>
-              </span>
+              </span> -->
               <span class="link-block">
-                <a href="https://github.com/jaychempan/LAE-DINO/"
+                <a href="https://github.com/jaychempan/EarthSynth/"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -124,14 +129,23 @@
                   <span>Data & Code</span>
                   </a>
               </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/jaychempan/EarthSynth"
+                class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        🤗
+                    </span>
+                    <span>Model</span>
+                </a>
+              </span>
               <!-- Video Link. -->
              <span class="link-block">
-               <a href="https://www.bilibili.com/video/BV1YWAkeMEGz/?spm_id_from=333.1387.homepage.video_card.click&vd_source=40fc045441ed1b48b1aed8335b273fee"
+               <a href=""
                   class="external-link button is-normal is-rounded is-dark">
                  <span class="icon">
                      <i class="fab fa-youtube"></i>
                  </span>
-                 <span>Video </span>
+                 <span>Video</span>
                </a>
              </span>
             </div>
@@ -149,10 +163,10 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified">
             <center>
-            <img src="./assets/lae.png" width="75%"/>
+            <img src="./assets/EarthSynth-FM.png" width="100%"/>
             </center>
             <p>
-              <b>Locate Anything on Earth (LAE)</b> aims to detect any object on Earth and facilitate practical detection tasks, powered by LAE-Label Engine and LAE-DINO Model.
+              A diffusion-based generative foundation model, <b>EarthSynth</b>, pretrained on multi-source and multi-category data, synthesizing Earth observation with a semantic mask and text for downstream remote sensing image interpretation tasks.
             </p>
           </div>
         </div>
@@ -169,8 +183,7 @@
         <h2 class="title is-3">Motivations</h2>
         <div class="content has-text-justified">
           <p>
-          Object detection, particularly <b><font color=#2980B9>open-vocabulary object detection</font></b>, plays a crucial role in Earth sciences, such as environmental monitoring, natural disaster assessment, and landuse planning. However, existing open-vocabulary detectors,
-          primarily trained on natural-world images, struggle to generalize to remote sensing images due to a significant data domain gap. Thus, this paper aims to <b><font color=#2980B9>advance the development of open-vocabulary object detection in remote sensing community</font></b>.
+            <b><font color=#2980B9>Remote sensing image (RSI) interpretation</font></b> is fundamentally constrained by challenges such as severe class imbalance and limited availability of high-quality labeled data, significantly impeding the development of robust models for downstream tasks. However, labeling RSIs typically requires domain-specific expertise and substantial manual effort, making large-scale annotation time-consuming and costly. Consequently, an important research objective is to effectively exploit existing labeled Earth observation (EO) datasets by uncovering latent relationships among samples to improve data efficiency.
         </p>
         </div>
       </div>
@@ -189,23 +202,19 @@
         <div class="content has-text-justified">
           <p>   
           <p>
-            <b><h3> 🌍 LAE-1M Dataset powered by LAE-Label Engine</h3></b></b>
+            <b><h3> 🌍 EarthSynth-180K Datase and EarthSynth</h3></b></b>
             <ul>
               <li>
-                LAE-Label engine is proposed to solve the <b><font color=#2980B9>lack of diverse object-level labeled data </font></b> in the <b><font color=#2980B9>remote sensing community</font></b>, which is essentially an indispensable part of training robust foundation models.
+                We propose EarthSynth, <b><font color=#2980B9>a diffusion-based generative foundation model</font></b> trained on the EarthSynth-180K dataset with 180K samples aligned image, semantic mask, and text, achieving a unified solution to achieve multi-task generation.
               </li>
-              <li>
-                LAE-1M dataset is get by the LAE-Label engine with <b><font color=#2980B9>one million labeled objects across diverse categories</font></b>.
-              </li> 
               </ul> 
           </p>
           <p>
-            <b><h3> 🛰️ LAE-DINO Open-Vocabulary Detector</h3></b></b>
+            <b><h3> 🛰️ Counterfactual Composition (CF-Comp) and R-Filter</h3></b></b>
             <ul> 
               <li>
-                LAE-DINO Model is proposed and trained to work as <b><font color=#2980B9>the first foundation models for the newly proposed LAE task</font></b>.
-              </li>
-            
+                EarthSynth employs the CF-Comp strategy to  <b><font color=#2980B9>balance the layout controllability and category diversity</font></b> during training, enabling fine layout control for RSI generation. It further incorporates the R-Filter to extract more informative and high-quality synthesized samples.
+              </li> 
           </ul> 
           </p>
         </div>
@@ -217,11 +226,11 @@
 
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">LAE-1M Dataset</h2>
+        <h2 class="title is-3">EarthSynth-180K Dataset</h2>
         <div class="content has-text-justified">
           <p>
             In addition to the visual examples as shown in the benchmark figure, we further provide more infomations here. <b>All the target datasets could be found on our <a href="https://github.com/jaychempan/LAE-DINO">github repo</a>.</b>
@@ -240,7 +249,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 
@@ -248,14 +257,12 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">LAE-DINO Model</h2>
+        <h2 class="title is-3">EarthSynth Model</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a novel LAE-DINO detector for LAE, with dynamic vocaublary constuction (DVC) and VisualGuided Text Prompt Learning (VisGT) as novel modules. The <b><font color=#2980B9>Overall framework</font></b> of our LAE-DINO:
-        </p>
-          
+            EarthSynth is trained with CF-Comp training strategy on real and unrealistic logical mixed data distribution, learns remote sensing pixel-level properties in multiple dimensions, and builds a unified process for conditional diffusion training and synthesis.</p>
           <center>
-            <img src="./assets/LAE-DINO-Pipeline.png" width="100%"/>
+            <img src="./assets/EarthSynth-Framwork.png" width="100%"/>
             </center>
 
 

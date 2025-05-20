@@ -5,7 +5,7 @@ main:
     conference: Under Review, 2025.
     pdf: https://arxiv.org/abs/2505.12108
     code: https://github.com/jaychempan/EarthSynth/
-    bibtex: ./pan2025earthsynth.html
+    bibtex: ./bibx/pan2025earthsynth.html
     image: ./images/papers/earthsy.png
     page: https://jianchengpan.space/EarthSynth-website/
     highlight: true

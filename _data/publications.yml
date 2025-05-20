@@ -3,7 +3,7 @@ main:
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Shiye Lei&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Jiahao Li, Yanxing Liu, Yuze Sun, Xiao He, Long Peng, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Bo Zhao<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: Preprint
     conference: Under Review, 2025.
-    pdf: https://arxiv.org/abs/2504.04517
+    pdf: https://arxiv.org/abs/2505.12108
     code: https://github.com/jaychempan/EarthSynth/
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/earthsy.png

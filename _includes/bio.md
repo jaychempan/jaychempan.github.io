@@ -10,7 +10,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 <!-- Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. -->
 
 <!-- ## Research Interests -->  
-**My research interests** [**Keywords**] include but are not limited to Multimodal Learning, Data-centric AI, Foundation Model with its application on Earth Observation [**GeoAI**], towards constructing <span class="highlightone">Foundation Models and Multi-modal LLMs for Earth Observation</span>. I am also dedicated to tackling challenges in Earth sciences through machine learning, with a particular emphasis on solving socially relevant problems, such as advancing sustainability [**ML4Sustainability**][**AI4Earth**].
+**My research interests** [**Keywords**] include but are not limited to Multimodal Learning, Data-centric AI, Foundation Model with its application on Earth Observation [**GeoAI**], towards constructing <span class="highlightone">Foundation Models and Multi-modal LLMs for Earth Observation</span>. I am also dedicated to tackling challenges in Earth sciences through machine learning, with a particular emphasis on solving socially relevant problems, such as advancing sustainability [**ML4Sustain**][**AI4Earth**].
 <!-- - **AI4EO**: Multimodal Learning, Data-centric AI, Foundation Model -->
 <!-- - **AI4Earth**: ML4Sustainability -->
 

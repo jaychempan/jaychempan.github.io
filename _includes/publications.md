@@ -6,9 +6,10 @@
 
 <div class="publications">
 <ol class="bibliography">
-<p style="text-align:center; font-size:14px;"><font color="#006621" face="Arial Black"><b>Stand on the shoulders of giants, learning from the great work</b></font></p>
-<!-- <p><font color="#006621"><b>Stand on the shoulders of giants, learning from the great work of others.</b></font></p> -->
-<p style="text-align:center;">&ast; indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p>
+<!-- <p style="text-align:center; font-size:14px;"><font color="#006621" face="Arial Black"><b>Stand on the shoulders of giants, learning from the great work</b></font></p> -->
+<!-- <p style="text-align:center;">&ast; indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p> -->
+
+<p style="text-align:left;">&ast; indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p>
 {% for link in site.data.publications.main %}
 
 <li>

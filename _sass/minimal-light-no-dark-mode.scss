@@ -516,3 +516,18 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+.box {
+  border: 1px solid #ccc;
+  padding: 11px;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .box {
+    background-color: #3498db57;
+    color: #f9f9f9;
+  }
+}

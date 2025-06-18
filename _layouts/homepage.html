@@ -23,6 +23,18 @@
         z-index: -1;
         pointer-events: none;
       }
+      .topnav a.active {
+        background-color: #888;
+        color: #fff;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .topnav a.normal:hover {
+        background-color: #888;
+        color: #fff;
+      }
     </style>
     <title>Jiancheng Pan | GeoAI & AI4Earth</title>
 
@@ -110,8 +122,23 @@
           line-height: 30px;
           height: 30px;
         }
+        .topnav a.normal.active {
+          background-color: #ccc;
+          color: black;
+        }
     </style>
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll(".topnav a.normal");
+        links.forEach(function(link) {
+          link.addEventListener("click", function() {
+            links.forEach(function(l) { l.classList.remove("active"); });
+            this.classList.add("active");
+          });
+        });
+      });
+    </script>
+    
     <div class="wrapper">
       <header>
         

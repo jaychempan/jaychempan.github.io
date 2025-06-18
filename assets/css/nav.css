@@ -160,4 +160,9 @@
       }
    }
    
+/* 固定点击后的灰色样式 */
+.topnav a.normal.active {
+  background-color: #ccc;  /* 固定点击后的灰色 */
+  color: black;
+}
 

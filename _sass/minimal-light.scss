@@ -667,7 +667,7 @@ footer {
   }
 }
 
-.boxe {
+.box {
   border: 1px solid #ccc;
   padding: 11px;
   background-color: #f9f9f9;
@@ -676,11 +676,8 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-  .boxe {
-    border: 1px solid #ccc;
-    padding: 11px;
+  .box {
     background-color: #3498db57;
     color: #f9f9f9;
-    border-radius: 5px;
   }
 }

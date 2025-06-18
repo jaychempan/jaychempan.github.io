@@ -666,3 +666,21 @@ footer {
     background-color: #3498db57; /* 浅蓝色 */
   }
 }
+
+.box {
+  border: 1px solid #ccc;
+  padding: 11px;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .box {
+    border: 1px solid #ccc;
+    padding: 11px;
+    background-color: #3498db57;
+    color: #f9f9f9;
+    border-radius: 5px;
+  }
+}

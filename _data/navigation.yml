@@ -11,9 +11,9 @@ main:
     url: ./#services
     # right: true 
 
-  # - title: "Honors"
-  #   url: ./#honors
-  #   # right: true 
+  - title: "Honors"
+    url: ./#honors
+    # right: true 
     
   - title: "Projects"
     url: ./#projects

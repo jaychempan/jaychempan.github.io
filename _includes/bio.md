@@ -18,6 +18,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 - Foundation Detector: [LAE-DINO](https://jianchengpan.space/LAE-website/)   <img class="mini-img"  src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20">
 - Generative Foundation Model: [EarthSynth](https://jianchengpan.space/EarthSynth-website/) <img class="mini-img"  src="images/papers/earthsy-logo.png" style="vertical-align: middle;" alt="Logo" width="25">
 
-I believe in *<u>earning through skills and achieving through collaboration</u>*. **<font color="#b62be4">If you are interested in my research or have any questions, suggestions, or collaboration ideas, please feel free to contact me.</font>**  <span class="highlightone">Email or WeChat[id: **jaychempan**] is OK</span>.
-
+<div style="border: 1px solid #ccc; padding: 11px; background-color: #f9f9f9; color: #333; border-radius: 5px;">
+I believe in <u>earning through skills and achieving through collaboration</u>. <font color="#b62be4">If you are interested in my research or have any questions, suggestions, or collaboration ideas, please feel free to contact me.</font>  Email or WeChat[id: jaychempan] is OK.
+</div>
 <!-- - **<font color="#b62be4">I am actively seeking internship or co-operation opportunities related to tackling challenges the field of Earth sciences with GeoAI technologies, particularly in sustainable development.</font>**  -->

@@ -1,5 +1,5 @@
 main:
-  - title: "Internships"
+  - title: "Interns"
     url: ./#internships
     right: true 
 
@@ -11,9 +11,9 @@ main:
     url: ./#services
     # right: true 
 
-  - title: "Honors"
-    url: ./#honors
-    # right: true 
+  # - title: "Honors"
+  #   url: ./#honors
+  #   # right: true 
     
   - title: "Projects"
     url: ./#projects
@@ -23,6 +23,6 @@ main:
     url: ./#publications
     # right: true 
 
-  - title: "Biography"
+  - title: "Home"
     url: ./#biography
 

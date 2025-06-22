@@ -7,7 +7,7 @@ About Me
 </h2>
 
 Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>). I am a third-year master student at the Institute of Computer Vision of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>. Honorably, I will be a visting researcher at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology </a> (INSAIT, Sofia, Bulgaria), working with <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Prof. Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a> on Multi-modal LLMs for Earth Observation.
-<!-- Before that, I received the B.E. degree from Jiangxi Normal University in 2022, under the supervision of <a href="https://scholar.google.com/citations?user=ZO3KGykAAAAJ&hl=en&oi=ao">Prof. Aiwen Jiang</a>. -->
+
 
 <!-- ## Research Interests   -->
 **My research interests** include Multimodal Learning, Data-centric AI, Foundation Model, and Multi-modal LLMs with their application on Earth Observation [**GeoAI**]. I am also dedicated to tackling challenges in Earth sciences through machine learning, with an emphasis on advancing sustainable development [<a href="https://github.com/ML4Sustain/">**ML4Sustain**</a>] <img class="mini-img"  src="images/ML4Sustain_Logo.png" style="vertical-align: middle;" alt="Logo" width="20">.

@@ -8,7 +8,7 @@ About Me
 
 Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>). I am a visting researcher at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology </a> (INSAIT, Sofia, Bulgaria), working with <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Prof. Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a> on Multi-modal LLMs for Earth Observation.
 
-Previously, I graduated from Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I am a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>  of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>. 
+Previously, I received my master's degree from College of Computer Science and Technology, of Zhejiang University of Technology under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I was a visiting research student at <a href="https://github.com/AI4EarthLab">AI4Earth Laboratory</a>, Department of Earth System Science, of Tsinghua University with <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>. 
 
 
 <!-- ## Research Interests   -->

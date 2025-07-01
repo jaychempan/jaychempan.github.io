@@ -2,6 +2,7 @@
 <h2 id="news">
 News
 </h2>
+- **[Jul. 2025]** I officially joined <img class="mini-img"  src="images/insait-logo.png" style="vertical-align: middle;" alt="Logo" width="50"> in Sofia of Bulgaria as a visiting researcher.
 - **[Jun. 2025]** Honored as an  Outstanding Graduate of Zhejiang Province, China.
 - **[May 2025]** RS generative foundation model <a href="https://arxiv.org/abs/2505.12108">EarthSynth</a> <img class="mini-img"  src="images/papers/earthsy-logo.png" style="vertical-align: middle;" alt="Logo" width="25"> for task-oriented synthesis.
 - **[Apr. 2025]** I have reached 100+ citations of <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en">Google Scholar</a> <img class="mini-img"  src="images/google-scholar.png" style="vertical-align: middle;" alt="Logo" width="15">.

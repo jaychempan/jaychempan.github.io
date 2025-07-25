@@ -2,7 +2,7 @@
 <h2 id="services">
   Services
 </h2>
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Conference Reviewers / PC Member</h4>
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>AAAI Conference on Artificial Intelligence (AAAI'26)</autocolor></li>

@@ -6,7 +6,7 @@
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>AAAI Conference on Artificial Intelligence (AAAI'26, AAAI'26 AI Alignment Track)</autocolor></li>
-  <li><autocolor>Neural Information Processing Systems (NeurIPS'24/25)</autocolor></li>
+  <li><autocolor>Neural Information Processing Systems (NeurIPS'24/25 Workshop UniReps)</autocolor></li>
   <li><autocolor>ACM International Conference on Multimedia (ACM MM'24/25)</autocolor></li>
   <li><autocolor>ACM International Conference on Multimedia Retrieval (ACM ICMR'24/25)</autocolor></li>
   <li><autocolor>GAIA Symposium on Geospatial AI and Applications with Foundation Models (GAIA'25)</autocolor></li>

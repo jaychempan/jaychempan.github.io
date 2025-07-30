@@ -26,8 +26,8 @@ main:
     authors: Yanxing Liu, <u><strong>Jiancheng Pan</strong></u>, Bingchen Zhang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: IGARSS'25
     conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.
-    pdf: https://arxiv.org/abs/2504.04517
-    bibtex: ./bibx/pan2025enhance.html
+    pdf: https://arxiv.org/abs/2507.21816
+    bibtex: ./bibx/pan2025control.html
     image: ./images/papers/contolcv.png
 
   - title: "Semantic-Aware Ship Detection with Vison-Language Integration"

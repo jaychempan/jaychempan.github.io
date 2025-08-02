@@ -19,7 +19,8 @@ main:
     benchmark: https://paperswithcode.com/task/cross-domain-few-shot-object-detection/latest/
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/ets.png
-    notes: NTIRE25 Runner-up
+    ccf: CCF-A Workshop
+    notes: Oral
     # highlight: true
 
   - title: "Control Copy-Paste: Controllable Diffusion-Based Augmentation Method for Remote Sensing Few-Shot Object Detection"
@@ -58,7 +59,6 @@ main:
     image: ./images/papers/lae.png
     page: https://jianchengpan.space/LAE-website/
     ccf: CCF-A
-    sci: Q1
     notes: AGU24 Oral
     highlight: true
 
@@ -79,6 +79,7 @@ main:
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png
     ccf: CCF-B
+    sci: Q1, IF=7.5
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>

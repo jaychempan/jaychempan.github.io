@@ -13,7 +13,7 @@ main:
 
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"
     authors: <u><strong>Jiancheng Pan</strong></u>, Yanxing Liu, Xiao He, Long Peng, Jiahao Li, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: CVPRW'25
+    conference_short: CVPRW 2025
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2025.
     pdf: https://arxiv.org/abs/2504.04517
     code: https://github.com/jaychempan/ETS/
@@ -26,7 +26,7 @@ main:
 
   - title: "Control Copy-Paste: Controllable Diffusion-Based Augmentation Method for Remote Sensing Few-Shot Object Detection"
     authors: Yanxing Liu, <u><strong>Jiancheng Pan</strong></u>, Bingchen Zhang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: IGARSS'25
+    conference_short: IGARSS 2025
     conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.
     pdf: https://arxiv.org/abs/2507.21816
     bibtex: ./bibx/pan2025control.html
@@ -34,7 +34,7 @@ main:
 
   - title: "Semantic-Aware Ship Detection with Vison-Language Integration"
     authors: Jiahao Li, <u><strong>Jiancheng Pan</strong></u>, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: IGARSS'25
+    conference_short: IGARSS 2025
     conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.
     pdf: https://arxiv.org/abs/2504.04517
     bibtex: ./bibx/pan2025enhance.html
@@ -52,7 +52,7 @@ main:
 
   - title: "Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community"
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Yanxing Liu&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Muyuan Ma, Jiahao Li, Danda Pani Paudel, Luc Van Gool, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: AAAI'25
+    conference_short: AAAI 2025
     conference: AAAI Conference on Artificial Intelligence (AAAI), 2025.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/32672
     code: https://github.com/jaychempan/LAE-DINO/
@@ -74,7 +74,7 @@ main:
 
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma&ast;, <u><strong>Jiancheng Pan</strong></u>&ast;, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: TGRS'24
+    conference_short: TGRS 2024
     conference: IEEE Transactions on Geoscience and Remote Sensing (IEEE TGRS), 2024. 
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
@@ -84,7 +84,7 @@ main:
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
-    conference_short: MM'23
+    conference_short: ACMMM 2023
     conference: ACM International Conference on Multimedia (ACM MM), 2023.
     pdf: https://dl.acm.org/doi/10.1145/3581783.3612374
     code: https://github.com/jaychempan/PIR
@@ -96,7 +96,7 @@ main:
 
   - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Cong Bai
-    conference_short: ICMR'23
+    conference_short: ICMR 2023
     conference: ACM International Conference on Multimedia Retrieval (ACM ICMR), 2023.
     pdf: https://dl.acm.org/doi/abs/10.1145/3591106.3592236
     code: https://github.com/jaychempan/SWAN-pytorch
@@ -104,3 +104,14 @@ main:
     notes: Oral
     ccf: CCF-B
     image: ./images/papers/icmr-swan2.png
+
+  - title: "Deliberation on object-aware video style transfer network with long–short temporal and depth-consistent constraints"
+    authors: Yunxin Liu, Aiwen Jiang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, <u><strong>Jiancheng Pan</strong></u>, Jianming Liu, Jihua Ye
+    conference_short: NCA 2021
+    conference: Neural Computing and Applications (NCA), 2021.
+    pdf: https://link.springer.com/article/10.1007/s00521-020-05630-y
+    bibtex: ./bibx/liu2021deliberation.html
+    image: ./images/papers/styletrans.png
+    ccf: CCF-C
+    sci: Q1, IF=4.4
+

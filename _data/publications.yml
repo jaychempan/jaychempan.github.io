@@ -1,4 +1,5 @@
 main:
+
   - title: "EarthSynth: Generating Informative Earth Observation with Diffusion Models"
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Shiye Lei&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Jiahao Li, Yanxing Liu, Yuze Sun, Xiao He, Long Peng, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Bo Zhao<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: Preprint

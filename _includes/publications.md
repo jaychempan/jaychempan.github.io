@@ -43,11 +43,18 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
+      {% if link.ccf %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #0056b3; background-color: #e6f0ff; border: 1px solid #0056b3;">{{ link.ccf }}</a>
+      {% endif %}
+      {% if link.sci %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #2e7d32; background-color: #e8f5e9; border: 1px solid #2e7d32;">{{ link.sci }}</a>
+      {% endif %}
       {% if link.notes %} 
       <!-- <i class="note" style="color:#e74d3c">{{ link.notes }}</i> -->
-      <span style="color: #e74d3c; font-weight: bold; font-size: 0.9em;">
+      <!-- <span style="color: #e74d3c; font-weight: bold; font-size: 0.9em;">
         {{ link.notes }}
-      </span>
+      </span> -->
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px; color: #cc0000; background-color: #ffe5e5; border: 1px solid #cc0000;">{{ link.notes }}</a>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}

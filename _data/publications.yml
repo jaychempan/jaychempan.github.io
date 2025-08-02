@@ -19,7 +19,7 @@ main:
     benchmark: https://paperswithcode.com/task/cross-domain-few-shot-object-detection/latest/
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/ets.png
-    notes: NTIRE25 Challenge Runner-up
+    notes: NTIRE25 Runner-up
     # highlight: true
 
   - title: "Control Copy-Paste: Controllable Diffusion-Based Augmentation Method for Remote Sensing Few-Shot Object Detection"
@@ -37,7 +37,7 @@ main:
     pdf: https://arxiv.org/abs/2504.04517
     bibtex: ./bibx/pan2025enhance.html
     image: ./images/papers/shipdet.png
-    notes: Oral Presentation
+    notes: Oral
     
   - title: "InfoEA: Information-Based Remote Sensing Image-Text Embedding Alignment Via Bottleneck"
     authors: Qing Ma, Hongze Ni, <u><strong>Jiancheng Pan</strong></u>, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen
@@ -57,7 +57,9 @@ main:
     bibtex: ./bibx/pan2024locate.html
     image: ./images/papers/lae.png
     page: https://jianchengpan.space/LAE-website/
-    notes: AGU24 Oral Presentation
+    ccf: CCF-A
+    sci: Q1
+    notes: AGU24 Oral
     highlight: true
 
   - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"
@@ -76,6 +78,7 @@ main:
     pdf: https://ieeexplore.ieee.org/document/10507076
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png
+    ccf: CCF-B
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
@@ -86,8 +89,8 @@ main:
     benchmark: https://paperswithcode.com/task/cross-modal-retrieval
     bibtex: ./bibx/pan2023prior.html
     image: ./images/papers/acmmm-pir.png
-    notes: Oral Presentation
-    # highlight: true
+    notes: Oral
+    ccf: CCF-A
 
   - title: "Reducing Semantic Confusion: Scene-aware Aggregation Network for Remote Sensing Cross-modal Retrieval"
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Cong Bai
@@ -96,5 +99,6 @@ main:
     pdf: https://dl.acm.org/doi/abs/10.1145/3591106.3592236
     code: https://github.com/jaychempan/SWAN-pytorch
     bibtex: ./bibx/pan2023reducing.html
-    notes: Oral Presentation
+    notes: Oral
+    ccf: CCF-B
     image: ./images/papers/icmr-swan2.png

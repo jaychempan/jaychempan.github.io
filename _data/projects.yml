@@ -6,3 +6,4 @@ main:
     page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
     news: https://mp.weixin.qq.com/s/GquHf-vSeGz9ecrUcMekvQ
     image: ./images/gid-web.png
+    teams: http://gidmodel.org.cn/?page_id=135&lang=en

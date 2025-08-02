@@ -34,13 +34,13 @@ Projects
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       {% endif %}
+      {% if link.teams %} 
+      <a href="{{ link.teams }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Team</a>
+      {% endif %}
       {% if link.news %} 
-      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">News</a>
+      <a href="{{ link.news }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Release News</a>
       {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
+      {% if link.notes %}
       <!-- <i style="color:#e74d3c" >{{ link.notes }}</i> -->
       <span style="color: #e74d3c; font-weight: bold; font-size: 1.05em; font-family: 'Courier New', monospace; background-color: #fff3cd; padding: 2px 6px; border-radius: 4px;">
         Note: {{ link.notes }}

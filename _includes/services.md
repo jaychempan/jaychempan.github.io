@@ -18,6 +18,7 @@
   <li><autocolor>Information Fusion (INFFUS)</autocolor></li>
   <li><autocolor>IEEE Transactions on Image Processing (IEEE TIP)</autocolor></li>
   <li><autocolor>IEEE Transactions on Geoscience and Remote Sensing (IEEE TGRS)</autocolor></li>
+  <li><autocolor>IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT)</autocolor></li>
   <li><autocolor>Journal of Geography and Cartography (JGC)</autocolor></li>
   <li><autocolor>The Journal of Supercomputing (J Supercomput)</autocolor></li>
 </ul>

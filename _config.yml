@@ -16,8 +16,9 @@ canonical: https://minimal-light-theme.yliu.me/
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao
-# cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/jaychempan
+huggingface_link: https://huggingface.co/jaychempan
 linkedin: https://www.linkedin.com/in/jianchengpan
 twitter: https://twitter.com/jaychempan
 camera: http://mrherod.cn:9999/photography/all/

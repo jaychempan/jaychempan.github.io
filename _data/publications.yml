@@ -32,7 +32,7 @@ main:
     bibtex: ./bibx/pan2025control.html
     image: ./images/papers/contolcv.png
 
-  - title: "Semantic-Aware Ship Detection with Vison-Language Integration"
+  - title: "Semantic-Aware Ship Detection with Vision-Language Integration"
     authors: Jiahao Li, <u><strong>Jiancheng Pan</strong></u>, Yuze Sun, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: IGARSS 2025
     conference: The International Geoscience and Remote Sensing Symposium (IGARSS), 2025.

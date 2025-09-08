@@ -4,7 +4,8 @@
 </h2>
 
 <ul style="margin:0 0 5px;">
-  <li>Outstanding Graduate (Zhejiang, China), 2025</li>
+  <li>Graduate Academic Star of ZJUT (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">研究生学术之星</span>, Top 10 Students), 2025</li>
+  <li>Outstanding Graduate (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">浙江省优秀毕业生</span>, China), 2025</li>
   <li>INSAIT Graduate Research Fellowship (Sofia, Bulgaria), 2025</li>
   <li>Runner-up in the NTIRE 2025 CD-FSOD Challenge (Team Leader, Nashville, USA), CVPRW 2025</li>
   <li>National Scholarship (Top 1.05%, Ranking 7/664), 2024</li>

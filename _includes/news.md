@@ -2,8 +2,9 @@
 <h2 id="news">
 News
 </h2>
+- **[Sep. 2025]** Honored as Graduate Academic Star of ZJUT (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">研究生学术之星</span>, Top 10 Students).
 - **[Jul. 2025]** I officially joined <img class="mini-img"  src="images/insait-logo.png" style="vertical-align: middle;" alt="Logo" width="50"> in Sofia of Bulgaria as a visiting researcher.
-- **[Jun. 2025]** Honored as an  Outstanding Graduate of Zhejiang Province, China.
+- **[Jun. 2025]** Honored as an  Outstanding Graduate (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">浙江省优秀毕业生</span>, China).
 - **[May 2025]** RS generative foundation model <a href="https://arxiv.org/abs/2505.12108">EarthSynth</a> <img class="mini-img"  src="images/papers/earthsy-logo.png" style="vertical-align: middle;" alt="Logo" width="25"> for task-oriented synthesis.
 - **[Apr. 2025]** I have reached 100+ citations of <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en">Google Scholar</a> <img class="mini-img"  src="images/google-scholar.png" style="vertical-align: middle;" alt="Logo" width="15">.
 - **[Apr. 2025]** One paper is selected poster presentation by <a href="https://valser.org/2025/">VALSE 2025</a> <img class="mini-img"  src="images/VALSE-logo.png" style="vertical-align: middle;" alt="Logo" width="22"> at Zhuhai, China.

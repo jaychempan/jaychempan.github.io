@@ -62,14 +62,14 @@ main:
     notes: AGU24 Oral
     highlight: true
 
-  - title: "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning"
+  - title: "PriorCLIP: Visual Prior Guided Vision-Language Model for Remote Sensing Image-Text Retrieval"
     authors: <u><strong>Jiancheng Pan</strong></u>, Muyuan Ma, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Shengyong Chen
     conference_short: Preprint
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2405.10160
-    code: https://github.com/jaychempan/PIR-CLIP
+    code: https://github.com/jaychempan/PriorCLIP
     bibtex: ./bibx/pan2024pir.html
-    image: ./images/papers/pir-clip.png
+    image: ./images/papers/priorclip.png
 
   - title: Direction-Oriented Visual-semantic Embedding Model for Remote Sensing Image-text Retrieval
     authors: Qing Ma&ast;, <u><strong>Jiancheng Pan</strong></u>&ast;, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>

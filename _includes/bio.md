@@ -7,6 +7,7 @@ Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘
 
 Previously, I received my Master's degree from the College of Computer Science and Technology, Zhejiang University of Technology in 2025, under the supervision of <a href="https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en&oi=ao">Prof. Cong Bai</a>. At the same time, I was a Joint-Program / Visiting Research student at Department of Earth System Science, Tsinghua University (2023-2025), under the supervision of <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Prof. Xiaomeng Huang</a>.
 
+Our Foundation Models & MLLMs: <a href="https://jianchengpan.space/LAE-website/">LAE-DINO</a> <img class="mini-img"  src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> / <a href="https://jianchengpan.space/EarthSynth-website/">EarthSynth</a> <img class="mini-img"  src="images/papers/earthsy-logo.png" style="vertical-align: middle;" alt="Logo" width="25">
 
 <div class="box">
 I believe in <u>earning through skills and achieving through collaboration</u>. <font color="#b62be4">If you are interested in my research or have any questions, suggestions, or collaboration ideas, please feel free to contact me.</font>  Email or WeChat[id: jaychempan] is OK.

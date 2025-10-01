@@ -8,6 +8,7 @@ main:
     bibtex: ./bibx/pan2025earthsynth.html
     image: ./images/papers/earthsy.png
     page: https://jianchengpan.space/EarthSynth-website/
+    notes: AGU25 Oral
     highlight: true
 
   - title: "Enhance Then Search: An Augmentation-Search Strategy with Foundation Models for Cross-Domain Few-Shot Object Detection"

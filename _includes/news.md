@@ -2,6 +2,7 @@
 <h2 id="news">
 News
 </h2>
+- **[Oct. 2025]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU 2025</a> at New Orleans (Oral).
 - **[Sep. 2025]** Honored as Graduate Academic Star of ZJUT (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">研究生学术之星</span>, Top 10 Students).
 - **[Jul. 2025]** I officially joined <img class="mini-img"  src="images/insait-logo.png" style="vertical-align: middle;" alt="Logo" width="50"> in Sofia of Bulgaria as a visiting researcher.
 - **[Jun. 2025]** Honored as an  Outstanding Graduate (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">浙江省优秀毕业生</span>, China).

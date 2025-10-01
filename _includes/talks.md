@@ -3,6 +3,7 @@
   Talks
 </h2>
 <ul style="margin:0 0 5px;">
+  <li style="color: gray;">AGU25 Fall Meeting Oral Session of <u>Advancing Machine Learning for Remote Sensing: Overcoming Data Scarcity and Domain Shift Challenges</u> at <span class="highlightone">New Orleans, LA</span> <img class="mini-img" src="images/agu25.png" style="vertical-align: middle;" alt="Logo" width="40">, 2025</li>
   <li>CVPR'25 NTIRE Workshop Oral Presentation (Online) at <span class="highlightone">Nashville, USA</span> <img class="mini-img" src="images/CVPR_Nashville.png" style="vertical-align: middle;" alt="Logo" width="50">, 2025</li>
   <li>The 4th Artificial Intelligence Oceanography Forum (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">第四届人工智能海洋学论坛</span>) on <u>Ocean Big Data Construction</u> at <span class="highlightone">Zhoushan, China</span>, 2025</li>
   <li>AGU24 Fall Meeting Oral Session of <u>Advancing Machine Learning for Remote Sensing: Overcoming Data Scarcity and Domain Shift Challenges</u> at <span class="highlightone">Washington,D.C, USA</span> <img class="mini-img" src="images/agu24.png" style="vertical-align: middle;" alt="Logo" width="40">, 2024</li>

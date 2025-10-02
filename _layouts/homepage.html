@@ -67,23 +67,17 @@
         x.style.display = "inline";
       }
       }
-      function reverseLinks() {
-    var container = document.getElementById("myLinks");
-    var links = Array.from(container.getElementsByTagName('a'));
-    container.innerHTML = '';
-    for (var i = links.length - 1; i >= 0; i--) {
-      container.appendChild(links[i]);
-    }
-  }
    </script>
 
   </head>
   <body>
     <div class="topnav">
-      <a href="{{ site.affiliation_link }}"><img width="240" src="{{ site.affiliation_logo }}"></a>
+      <div class="logo">
+        <a href="{{ site.affiliation_link }}"><img width="300" src="{{ site.affiliation_logo }}"></a>
+      </div>
 
       <div id="myLinks">
-      {% include navigation.md %}
+        {% include navigation.md %}
       </div>
 
       <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">

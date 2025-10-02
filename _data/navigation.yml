@@ -23,6 +23,3 @@ main:
     url: ./#publications
     # right: true 
 
-  - title: "Home"
-    url: ./
-

@@ -76,8 +76,8 @@
   .topnav {
     flex-direction: column;        /* 垂直排列 */
     align-items: center;           /* 居中 */
-    height: auto;                  /* ✅ 自动适应内容高度 */
-    padding: 30px 0;               /* 给上下预留一点空间 */
+    height: auto;               
+    padding: 20px 0;               
   }
   
   .topnav img {
@@ -116,7 +116,7 @@
     color: white;
     font-size: 26px;
     cursor: pointer;
-    margin-top: 16px;
+    margin-top: 6px;
   }
 
   

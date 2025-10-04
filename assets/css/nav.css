@@ -1,25 +1,53 @@
-/* Add a black background color to the top navigation */
+/* 左侧 logo 区域：占左半部分 */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;                     /* 两个 logo 间距 */
+  width: 40%;                    /* ✅ 左半部分 */
+  height: 10px;
+}
+/* logo 图片样式 */
+.logo-container img {
+  height: auto;
+  max-height: 60px;              /* 防止过大 */
+}
+
+/* 父容器：让 logo-container 和 myLinks 同行 */
 .topnav {
-  background-color: #13294B;
+  background-color: #13294b9d;
   overflow: hidden;
-  position:fixed;
-  z-index:999;
-  width:100%;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  display: flex;                 /* ✅ 开启 flex 布局 */
+  align-items: center;           /* 垂直居中 */
+  justify-content: space-between;/* 两边分布 */
+  padding: 5px 3%;               /* 适当左右内边距 */
+  box-sizing: border-box;
 }
 
 
+/* 右侧链接区：占右半部分 */
 .topnav #myLinks {
   display: inline;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;                   
 }
 
 .topnav a.icon {
   display: none;
 }
 
-.topnav img {
+/* .topnav img {
   margin-bottom:0pt;
   margin-top:10pt;
   margin-left:30%;
+} */
+/* 修改原来的 .topnav img 样式：去掉 margin-left */
+.topnav img {
+  margin-top: 10pt;
+  margin-bottom: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -45,6 +73,13 @@
 
 @media print, screen and (max-width: 1000px) { 
 
+  .topnav {
+    flex-direction: column;        /* 垂直排列 */
+    align-items: center;           /* 居中 */
+    height: auto;                  /* ✅ 自动适应内容高度 */
+    padding: 30px 0;               /* 给上下预留一点空间 */
+  }
+  
   .topnav img {
       margin-left:3%;
     }
@@ -57,6 +92,34 @@
       padding: 10px 5px;
   }
 
+  .logo-container
+  {
+    width: 80%;                   /* 占满整行 */
+    justify-content: right;       /* 居中对齐 */
+  }
+
+  #myLinks {
+    width: 100%;                   /* 各自占一整行 */
+    justify-content: center;       /* 居中对齐 */
+    padding: 40px 0; 
+  }
+
+  .logo-container img {
+    max-width: 40vw;               /* 宽度不超过屏幕宽度的 40% */
+    height: auto;                  /* 按比例缩放 */
+  }
+
+
+  .topnav .icon {
+    position: absolute;
+    top: 50%;                      /* 放在导航栏中线 */
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+
+  
  }
 
  @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 

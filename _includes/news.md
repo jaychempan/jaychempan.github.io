@@ -4,6 +4,8 @@ News
 </h2>
 <div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
   <ul style="margin:0; padding-left:20px;">
+    <li><b>[Oct. 2025]</b> One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a> (IAAI,CCF-A). Congrats to Yuze.</li>
+    <li><b>[Oct. 2025]</b> One paper is accepted by <a href="https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-letters/">IEEE GRSL</a>. Congrats to Yanxing.</li>
     <li><b>[Oct. 2025]</b> One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU 2025</a> at New Orleans, LA (Oral).</li>
     <li><b>[Sep. 2025]</b> Honored as Graduate Academic Star of ZJUT (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">研究生学术之星</span>, Top 10 Students).</li>
     <li><b>[Jul. 2025]</b> I officially joined 
@@ -43,6 +45,8 @@ News
 </div>
 
 <!-- 
+- **[Oct. 2025]** Egocentric Video MLLMs <a href="https://arxiv.org/abs/2505.12108">EgoOmni</a> <img class="mini-img"  src="images/papers/egoomni-logo.png" style="vertical-align: middle;" alt="Logo" width="25"> for cross-view video understanding.
+- **[Oct. 2025]** RS MLLMs <a href="https://arxiv.org/abs/2505.12108">EarthX</a> <img class="mini-img"  src="images/papers/earthmind2-logo.png" style="vertical-align: middle;" alt="Logo" width="25"> for spatial and temporal understanding.
 - **[Oct. 2025]** One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU 2025</a> at New Orleans, LA (Oral).
 - **[Sep. 2025]** Honored as Graduate Academic Star of ZJUT (<span style="font-family: 'STKaiti', 'KaiTi', 'AR PL KaitiM GB', 'KaiTi SC', 'KaiTi TC', 'SimKai', 'PingFang SC', 'Heiti SC', serif; font-size:15px;">研究生学术之星</span>, Top 10 Students).
 - **[Jul. 2025]** I officially joined <img class="mini-img"  src="images/insait-logo.png" style="vertical-align: middle;" alt="Logo" width="50"> in Sofia of Bulgaria as a visiting researcher.

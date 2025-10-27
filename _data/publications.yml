@@ -1,4 +1,24 @@
 main:
+  - title: "Deploying Atmospheric and Oceanic AI Models on Chinese Domestic Hardware and Framework: Migration Strategies, Performance Optimization and Analysis"
+    authors: Yuze Sun, Wentao Luo, Yanfei Xiang, <u><strong>Jiancheng Pan</strong></u>, Jiahao Li, Quan Zhang, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: AAAI 2026
+    conference: AAAI Conference on Artificial Intelligence (AAAI), 2026.
+    pdf: https://arxiv.org/abs/2505.12108
+    code: https://github.com/zeaccepted/AI-ocean-model-based-on-Mindspore-optimized-for-domestic-chips-in-China
+    bibtex: ./bibx/sun2025dcu.html
+    image: ./images/papers/dcu.png
+    ccf: CCF-A
+
+
+  - title: "Diverse Instance Generation via Diffusion Models for Enhanced Few-Shot Object Detection in Remote Sensing Images"
+    authors: Yanxing Liu, <u><strong>Jiancheng Pan</strong></u>, Jianwei Yang, Tiancheng Chen, Peiling Zhou, Bingchen Zhang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: GRSL 2025
+    conference: IEEE Geoscience and Remote Sensing Letters (IEEE GRSL), 2025.
+    pdf: https://ieeexplore.ieee.org/abstract/document/11213500
+    bibtex: ./bibx/liu2025dig.html
+    image: ./images/papers/dig.png
+    sci: Q1/Q2, IF=4.4
+
   - title: "EarthSynth: Generating Informative Earth Observation with Diffusion Models"
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Shiye Lei&ast;, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Jiahao Li, Yanxing Liu, Yuze Sun, Xiao He, Long Peng, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Bo Zhao<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: Preprint

@@ -3,7 +3,7 @@ main:
     authors: Yuze Sun, Wentao Luo, Yanfei Xiang, <u><strong>Jiancheng Pan</strong></u>, Jiahao Li, Quan Zhang, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: AAAI 2026
     conference: AAAI Conference on Artificial Intelligence (AAAI), 2026.
-    pdf: https://arxiv.org/abs/2505.12108
+    pdf: https://arxiv.org/abs/2510.17852
     code: https://github.com/zeaccepted/AI-ocean-model-based-on-Mindspore-optimized-for-domestic-chips-in-China
     bibtex: ./bibx/sun2025dcu.html
     image: ./images/papers/dcu.png

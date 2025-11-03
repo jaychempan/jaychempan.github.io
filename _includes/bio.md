@@ -4,7 +4,7 @@ About Me
 
 Hi, I am Jiancheng Pan (<span style="font-family: 'Ma Shan Zheng', cursive;">潘建成</span>), a Visiting Researcher at <a href="https://insait.ai/">Institute for Computer Science, Artificial Intelligence and Technology</a> (<img class="mini-img"  src="images/insait-logo.png" style="vertical-align: middle;" alt="Logo" width="50"> in Bulgaria), Sofia University "St. Kliment Ohridski", working with <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Prof. Luc Van Gool</a> and <a href="https://scholar.google.ch/citations?user=W43pvPkAAAAJ&hl=en">Dr. Danda Paudel</a>.
 
-My research focuses on Multimodal Learning, Foundation Models & MLLMs, Data-centric AI, and applications in Earth Observation and Sustainable Development.
+I’m interested in Cutting-Edge Visual Intelligence, focusing on Multimodal Learning, Foundation Models & MLLMs, Data-centric AI, and their applications in Egocentric Vision, Earth Observation and Sustainable Development. 
 
 Our Foundation Models & MLLMs: <a href="https://jianchengpan.space/LAE-website/">LAE-DINO</a> <img class="mini-img"  src="images/papers/lae-dino.png" style="vertical-align: middle;" alt="Logo" width="20"> / <a href="https://jianchengpan.space/EarthSynth-website/">EarthSynth</a> <img class="mini-img"  src="images/papers/earthsy-logo.png" style="vertical-align: middle;" alt="Logo" width="25">
 

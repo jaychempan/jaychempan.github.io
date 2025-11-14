@@ -1,4 +1,38 @@
 main:
+  - title: "Exo2EgoSyn: Unlocking Foundation Video Generation Models for Exocentric-to-Egocentric Video Synthesis"
+    authors: Mohammad Mahdi, Yuqian Fu, Nedko Savov, <u><strong>Jiancheng Pan</strong></u>, Danda Pani Paudel, Luc Van Gool
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: 
+    code: 
+    bibtex: 
+    image: ./images/papers/exo2egosyn.png
+    page: https://jianchengpan.space/EarthSynth-website/
+    # highlight: true
+
+  - title: "SegThinker: Recurrent Vision with Reasoning for Image Segmentation"
+    authors: Yuedong Tan, <u><strong>Jiancheng Pan</strong></u>, Yuqian Fu, Jiawei Shao, Radu Timofte, Luc Van Gool, Danda Pani Paudel, Zongwei Wu
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: 
+    code: 
+    bibtex: ./bibx/pan2025earthsynth.html
+    image: ./images/papers/segthinker.png
+    page: 
+    highlight: true
+
+
+  - title: "V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence"
+    authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Runze Wang&ast;, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: 
+    code: 
+    bibtex: ./bibx/pan2025earthsynth.html
+    image: ./images/papers/v2-sam.png
+    page: 
+    highlight: true
+
   - title: "Deploying Atmospheric and Oceanic AI Models on Chinese Domestic Hardware and Framework: Migration Strategies, Performance Optimization and Analysis"
     authors: Yuze Sun, Wentao Luo, Yanfei Xiang, <u><strong>Jiancheng Pan</strong></u>, Jiahao Li, Quan Zhang, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: AAAI 2026

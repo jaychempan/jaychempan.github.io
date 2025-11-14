@@ -30,7 +30,7 @@ main:
     code: https://jianchengpan.space/
     bibtex: ./bibx/pan2025earthsynth.html
     image: ./images/papers/v2-sam.png
-    page: 
+    page: https://jianchengpan.space/
     highlight: true
 
   - title: "Deploying Atmospheric and Oceanic AI Models on Chinese Domestic Hardware and Framework: Migration Strategies, Performance Optimization and Analysis"

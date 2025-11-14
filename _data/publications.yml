@@ -3,9 +3,9 @@ main:
     authors: Mohammad Mahdi, Yuqian Fu, Nedko Savov, <u><strong>Jiancheng Pan</strong></u>, Danda Pani Paudel, Luc Van Gool
     conference_short: Preprint
     conference: Under Review, 2025.
-    pdf: 
-    code: 
-    bibtex: 
+    pdf: https://jianchengpan.space/
+    code: https://jianchengpan.space/
+    bibtex: https://jianchengpan.space/
     image: ./images/papers/exo2egosyn.png
     page: https://jianchengpan.space/EarthSynth-website/
     # highlight: true
@@ -14,11 +14,11 @@ main:
     authors: Yuedong Tan, <u><strong>Jiancheng Pan</strong></u>, Yuqian Fu, Jiawei Shao, Radu Timofte, Luc Van Gool, Danda Pani Paudel, Zongwei Wu
     conference_short: Preprint
     conference: Under Review, 2025.
-    pdf: 
-    code: 
+    pdf: https://jianchengpan.space/
+    code: https://jianchengpan.space/
     bibtex: ./bibx/pan2025earthsynth.html
     image: ./images/papers/segthinker.png
-    page: 
+    page: https://jianchengpan.space/
     highlight: true
 
 
@@ -26,8 +26,8 @@ main:
     authors: <u><strong>Jiancheng Pan</strong></u>&ast;, Runze Wang&ast;, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
     conference_short: Preprint
     conference: Under Review, 2025.
-    pdf: 
-    code: 
+    pdf: https://jianchengpan.space/
+    code: https://jianchengpan.space/
     bibtex: ./bibx/pan2025earthsynth.html
     image: ./images/papers/v2-sam.png
     page: 

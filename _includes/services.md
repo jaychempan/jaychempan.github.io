@@ -5,7 +5,8 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers / PC Member</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><autocolor>AAAI Conference on Artificial Intelligence (AAAI'26, AAAI'26 AI Alignment Track)</autocolor></li>
+  <li><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR'26)</autocolor></li>
+  <li><autocolor>AAAI Conference on Artificial Intelligence (AAAI'26, AAAI'26 AI Alignment Track, AAAI'26 Workshop AI4UP)</autocolor></li>
   <li><autocolor>Neural Information Processing Systems (NeurIPS'24/25 Workshop UniReps)</autocolor></li>
   <li><autocolor>ACM International Conference on Multimedia (ACM MM'24/25)</autocolor></li>
   <li><autocolor>ACM International Conference on Multimedia Retrieval (ACM ICMR'24/25)</autocolor></li>

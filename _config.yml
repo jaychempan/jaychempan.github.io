@@ -27,7 +27,7 @@ camera: http://mrherod.cn:9999/photography/all/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./images/prof_pic_5.jpg
+avatar: ./images/prof_pic_6.jpg
 favicon: ./images/redketchup/favicon.ico
 favicon_dark: ./images/redketchup/favicon.ico
 # favicon: ./images/redketchup/favicon.gif

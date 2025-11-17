@@ -4,6 +4,7 @@ News
 </h2>
 <div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 10px;">
   <ul style="margin:0; padding-left:20px;">
+    <li><b>[Nov. 2025]</b> One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-26/">AAAIW 2026</a> (AI4UP). Congrats to Jiahao.</li>
     <li><b>[Oct. 2025]</b> One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a> (IAAI,CCF-A). Congrats to Yuze.</li>
     <li><b>[Oct. 2025]</b> One paper is accepted by <a href="https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-letters/">IEEE GRSL</a>. Congrats to Yanxing.</li>
     <li><b>[Oct. 2025]</b> One abstract has been accepted by <a href="https://www.agu.org/annual-Meeting">AGU 2025</a> at New Orleans, LA (Oral).</li>

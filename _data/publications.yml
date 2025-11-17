@@ -1,4 +1,15 @@
 main:
+  - title: "Tracking Global Hydropower Plants to Support Sustainable Urban Planning"
+    authors: Li Jiahao, <u><strong>Jiancheng Pan</strong></u>, Xiaomeng Huang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: AAAIW 2026
+    conference: AAAI Conference on Artificial Intelligence Workshops (AAAIW), 2026.
+    pdf: https://jianchengpan.space/
+    code: https://jianchengpan.space/
+    bibtex: https://jianchengpan.space/
+    image: ./images/papers/hydrodet.png
+    page: https://jianchengpan.space/EarthSynth-website/
+    # highlight: true
+
   - title: "Exo2EgoSyn: Unlocking Foundation Video Generation Models for Exocentric-to-Egocentric Video Synthesis"
     authors: Mohammad Mahdi, Yuqian Fu, Nedko Savov, <u><strong>Jiancheng Pan</strong></u>, Danda Pani Paudel, Luc Van Gool
     conference_short: Preprint

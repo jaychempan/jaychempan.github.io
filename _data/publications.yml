@@ -145,7 +145,7 @@ main:
     bibtex: ./bibx/ma2023direction.html
     image: ./images/papers/tgrs-dove.png
     ccf: CCF-B
-    sci: Q1, IF=7.5
+    sci: Q1, IF=8.6
 
   - title: A Prior Instruction Representation Framework for Remote Sensing Image-text Retrieval
     authors: <u><strong>Jiancheng Pan</strong></u>, Qing Ma, Cong Bai<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>

@@ -41,7 +41,7 @@
 
   <div class="internship-card">
     <div class="logo-box">
-      <img src="images/insait-logo.png" class="internship-logo" width="40">
+      <img src="images/insait-logo-1.png" class="internship-logo" width="40">
     </div>
     <div class="internship-role">Visiting Researcher</div>
     <div class="internship-org">INSAIT, Sofia University “St. Kliment Ohridski”</div>

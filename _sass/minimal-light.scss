@@ -104,6 +104,34 @@
   margin: 10px 0 5px;
 }
 
+@media (prefers-color-scheme: dark) {
+  .internship-card {
+    background-color: #2a2b36;               /* 深色卡片 */
+    border: 1px solid #5d6072;               /* 与 h2 背景同色系 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.45);   /* 更柔和但可见的阴影 */
+    color: #dadbdf;                           /* 卡片内文字跟随全局颜色 */
+  }
+
+  .internship-role {
+    color: #dadbdf;                           /* 亮字 */
+  }
+
+  .internship-org {
+    color: #c8c9cc;                           /* 稍弱的亮灰 */
+  }
+
+  .internship-year {
+    color: #9c9da0;                           /* 更弱的日期灰 */
+  }
+
+  .logo-box {
+    background-color: transparent;             /* 保持透明 */
+  }
+
+  .internship-logo {
+    filter: brightness(0.85) contrast(1.2);    /* ⭐轻微提升暗色模式下可见度 */
+  }
+}
 
 
 

@@ -45,6 +45,69 @@
       url("https://db.onlinewebfonts.com/t/157c7e79f7f057bbeacf5f113b964875.svg#AR PL KaitiM GB")format("svg");
   }
 
+/* --- 卡片现在只有原来的一半宽度 --- */
+.internship-card {
+  width: 128px;                /* ⭐原来的一半左右 */
+  padding: 12px 10px;          /* 适合窄卡片的内边距 */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+  background: white;
+  text-align: center;           /* ⭐ 让所有文字居中 */
+}
+
+/* --- Logo 在窄卡片中仍然保持美观 --- */
+.internship-logo {
+  display: block;
+  margin: 0 auto 8px auto;   /* ⭐水平居中 */
+  object-fit: contain;
+  // width: auto;               /* ⭐允许你自己在 HTML 设置宽度 */
+  width: 80% !important;   /* 比原本小 20% */
+  max-width: 80px;           /* 不会超过卡片宽度 */
+}
+
+.logo-box {
+  height: 130px;                /* 统一 Logo 区域高度（可调） */
+  display: flex;
+  justify-content: center;      /* 水平居中 */
+  align-items: center;          /* ⭐垂直居中：关键点 */
+  margin-bottom: 10px;
+}
+
+
+/* --- 文字较小、允许换行（normal）--- */
+.internship-role {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  white-space: normal;         /* ⭐允许换行 */
+}
+
+.internship-org {
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 4px;
+  white-space: normal;         /* ⭐允许换行 */
+}
+
+.internship-year {
+  font-size: 11px;
+  color: #666;
+  white-space: normal;         /* ⭐允许换行 */
+}
+
+/* --- 横向排列，更适合窄卡片 --- */
+.internship-grid {
+  display: flex;
+  gap: 16px;                   /* 窄卡片 → 小一点的间距 */
+  flex-wrap: wrap;
+  margin: 10px 0 5px;
+}
+
+
+
+
+
 @media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
     transform: scale(1.2)} 

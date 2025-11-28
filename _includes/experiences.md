@@ -18,7 +18,7 @@
     </div>
     <div class="internship-role">Master's Student</div>
     <div class="internship-org">Zhejiang University of Technology</div>
-    <div class="internship-year">2022.09-2025.06</div>
+    <div class="internship-year">Sep. 2022 – Jun. 2025</div>
   </div>
 
   <div class="internship-card">
@@ -27,7 +27,7 @@
     </div>
     <div class="internship-role">LLM Algorithm Intern</div>
     <div class="internship-org">Shanghai Artificial Intelligence Laboratory</div>
-    <div class="internship-year">2024.04-2024.08</div>
+    <div class="internship-year">Apr. 2024 – Aug. 2024</div>
   </div>
 
   <div class="internship-card">
@@ -36,7 +36,7 @@
     </div>
     <div class="internship-role">Visiting Research Student</div>
     <div class="internship-org">Tsinghua University</div>
-    <div class="internship-year">2023.08 – 2025.06</div>
+    <div class="internship-year">Aug. 2023 – Jun. 2025</div>
   </div>
 
   <div class="internship-card">
@@ -45,7 +45,7 @@
     </div>
     <div class="internship-role">Visiting Researcher</div>
     <div class="internship-org">INSAIT, Sofia University “St. Kliment Ohridski”</div>
-    <div class="internship-year">2025.06 – 2026.01</div>
+   <div class="internship-year">Jun. 2025 – Present</div>
   </div>
 
   <div class="internship-card">
@@ -54,7 +54,7 @@
     </div>
     <div class="internship-role">Visiting Researcher</div>
     <div class="internship-org">INSAIT, Sofia University “St. Kliment Ohridski”</div>
-    <div class="internship-year">2025.06 – 2026.01</div>
+    <div class="internship-year">Jun. 2025 – Present</div>
   </div>
 </div>
 

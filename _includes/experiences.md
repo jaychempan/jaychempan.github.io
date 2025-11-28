@@ -10,14 +10,16 @@
 
 <h2 id="internships">Affiliations</h2>
 
+<p style="text-align:left;">† My research journey began with my first independent project, and I’m grateful for every experience.</p>
+
 <div class="internship-grid">
 
   <div class="internship-card">
     <div class="logo-box">
       <img src="images/zjut-logo.png" class="internship-logo" width="40">
     </div>
-    <div class="internship-role">Master's Student</div>
-    <div class="internship-org">Zhejiang University of Technology</div>
+    <div class="internship-role">Master Student</div>
+    <div class="internship-org">Zhejiang University of Technology †</div>
     <div class="internship-year">Sep. 2022 – Jun. 2025</div>
   </div>
 

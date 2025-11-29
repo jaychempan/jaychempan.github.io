@@ -41,7 +41,7 @@ main:
     code: https://arxiv.org/abs/2511.20886
     bibtex: ./bibx/pan2025v2sam.html
     image: ./images/papers/v2-sam.png
-    page: https://arxiv.org/abs/2511.20886
+    page: https://jianchengpan.space/V2SAM-website/
     highlight: true
 
   - title: "Deploying Atmospheric and Oceanic AI Models on Chinese Domestic Hardware and Framework: Migration Strategies, Performance Optimization and Analysis"

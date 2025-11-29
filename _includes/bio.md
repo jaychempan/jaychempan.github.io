@@ -34,7 +34,7 @@ About Me
   </div>
 </div>
 <br>
-Our Foundation Models & MLLMs: <a href="https://jianchengpan.space/LAE-website/">LAE-DINO</a> / <a href="https://jianchengpan.space/EarthSynth-website/">EarthSynth</a> / <a href="">V²-SAM</a> / <a href="">SegThinker</a> / <a href="">Exo2EgoSyn</a>
+Our Foundation Models & MLLMs: <a href="https://jianchengpan.space/LAE-website/">LAE-DINO</a> / <a href="https://jianchengpan.space/EarthSynth-website/">EarthSynth</a> / <a href="https://jianchengpan.space/V2SAM-website/">V²-SAM</a> / <a href="">SegThinker</a> / <a href="">Exo2EgoSyn</a>
 <div class="box">
 I believe in <u>earning through skills and achieving through collaboration</u>. <font color="#b62be4">If you are interested in my research or have any questions, suggestions, or collaboration ideas, please feel free to contact me.</font>
 </div>

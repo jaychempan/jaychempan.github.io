@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Cross-View Object Correspondence">
+  <meta name="keywords" content="Cross-View Object Correspondence, V2-SAM, SAM2, Multi-Prompt Experts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence</title>
+  <link rel="icon" href="./assets/v2sam-logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+<!--  <link rel="icon" href="./static/images/favicon.svg">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <!-- <script src="./static/js/index.js"></script> -->
+</head>
+<body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://jaychempan.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"> <img width="70" alt="image" src="./assets/v2sam-logo.png"> <span style="color: #1994c8; font-weight: bold;">V²-SAM</span>: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence</h1>
+          <!-- <h2><img class="mini-img"  src="./assets/aaai-logo.png" style="vertical-align: middle;" alt="Logo" width="35"> <font color=#2980B9 size="5">AAAI 2025</font></h2> <br> -->
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+            <!-- <img src="./assets/aaai-logo.png" alt="Logo" width="35" style="margin-right: 10px;"> -->
+            <span style="color: #2980B9; font-size: 1.8em; font-weight: bold;">ArXiv 2025</span>
+          </div> <br>          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao">Jiancheng Pan</a><sup>*1,2</sup>,
+            </span>
+            <span class="author-block">
+              Runze Wang<sup>*3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Vvpvtp8AAAAJ&hl=en">Tianwen Qian</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              Mohammad Mahdi<sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Vg54TcsAAAAJ&hl=en">Yanwei Fu</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en">Xiangyang Xue</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Xiaomeng Huang</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=en">Danda Pani Paudel</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en">Yuqian Fu</a><sup>1†</sup>
+            </span>
+          </div>
+
+          <br>
+
+          <h2><font color=#424949 size="3">
+            <sup>1</sup>INSAIT, Sofia University “St. Kliment Ohridski”, 
+            <sup>2</sup>Tsinghua University, 
+            <sup>3</sup>Fudan University, 
+            <sup>4</sup>East China Normal University
+          </font></h2>
+
+          <!-- <br>
+          <img width="500" alt="image" src="./assets/inst.png">
+          <br> -->
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2511.20886"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>ArXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/jaychempan/EarthSynth"
+                class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img src="assets/hf-logo.svg" alt="Hugging Face Icon" style="height: 1.4em; vertical-align: middle;">
+                    </span>
+                    <span>Model</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+             <span class="link-block">
+               <a href=""
+                  class="external-link button is-normal is-rounded is-dark">
+                 <span class="icon">
+                     <i class="fab fa-youtube"></i>
+                 </span>
+                 <span>Video </span>
+               </a>
+             </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Ego2Exo Correspondence Visualization</h2>
+        <div class="content has-text-justified" style="margin-top: 1rem;">
+          <center>
+            <img src="./assets/vis1.png" width="95%" alt="Ego2Exo Visualization"/>
+          </center>
+          <p style="text-align: center; margin-top: 0.8rem; color: #555;">
+            Visualization of <b>Ego2Exo</b> cross-view object correspondence.  
+            The examples demonstrate how V²-SAM accurately transfers object masks 
+            from first-person to third-person viewpoints under large appearance 
+            and viewpoint variations.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="margin-top: -2rem;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Exo2Ego Correspondence Visualization</h2>
+        <div class="content has-text-justified" style="margin-top: 1rem;">
+          <center>
+            <img src="./assets/vis2.png" width="95%" alt="Exo2Ego Visualization"/>
+          </center>
+          <p style="text-align: center; margin-top: 0.8rem; color: #555;">
+            Visualization of <b>Exo2Ego</b> cross-view correspondence.  
+            V²-SAM effectively handles hand occlusion, object deformation,
+            and strong viewpoint shifts when transferring masks from 
+            static third-person views to egocentric frames.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- 居中的标题（跨两列） -->
+    <h2 class="title is-3 has-text-centered">Abstract</h2>
+
+    <!-- 两列布局 -->
+    <div class="columns is-vcentered is-centered" style="margin-top: 1rem;">
+
+      <!-- 左侧：摘要文字 -->
+      <div class="column is-two-thirds">
+        <div class="content has-text-justified">
+
+          <p>
+            Cross-view object correspondence aims to associate the same object across 
+            drastic viewpoint variations (e.g., <span style="color:#2980B9;"><b>ego–exo</b></span>).  
+            However, segmentation models such as <span style="color:#2980B9;"><b>SAM2</b></span> cannot be 
+            directly applied, because spatial prompts from the query view 
+            <span style="color:#2980B9;"><b>do not transfer across views</b></span>.  
+            To address this, <span style="color:#2980B9;"><b>V²-SAM</b></span> adapts SAM2 using two complementary 
+            prompt generators:
+          </p>
+
+          <ul>
+            <li>
+              <b><span style="color:#2980B9;">V²-Anchor</span></b>: geometry-aware anchoring based on DINOv3, 
+              enabling <span style="color:#2980B9;"><b>coordinate-based prompting</b></span>.
+            </li>
+            <li>
+              <b><span style="color:#2980B9;">V²-Visual</span></b>: appearance-guided prompting via a 
+              <span style="color:#2980B9;"><b>Visual Prompt Matcher</b></span>.
+            </li>
+          </ul>
+
+          <p>
+            With a <span style="color:#2980B9;"><b>multi-expert framework</b></span> and 
+            <span style="color:#2980B9;"><b>PCCS</b></span>, V²-SAM reliably selects the best expert per instance.  
+            It achieves new SOTA on <b>Ego-Exo4D</b>, <b>DAVIS-2017</b>, and <b>HANDAL-X</b>.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- 右侧：Teaser 图片 -->
+      <div class="column is-one-third has-text-centered">
+        <img src="./assets/v2sam-teaser.png" 
+             alt="Teaser Image" 
+             style="width: 95%; border-radius: 10px;">
+        <p style="font-size: 0.85rem; color: #6c6c6c; margin-top: 0.4rem;">
+          <span style="color:#2980B9;"><b>Teaser:</b></span> V²-SAM supports coordinate-point and visualreference prompts for cross-view segmentation.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Motivation</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            <span style="color:#2980B9;"><b>Cross-view correspondence</b></span> is crucial for 
+            multi-view perception, video understanding, and embodied AI.  
+            However, drastic changes in viewpoint, appearance, background clutter, motion, 
+            and occlusion make it difficult to directly leverage 
+            <span style="color:#2980B9;"><b>SAM2</b></span> with simple prompts.
+          </p>
+
+          <p>
+            This naturally raises two core questions:
+          </p>
+
+          <ul>
+            <li>
+              <span style="color:#2980B9;"><b>Can SAM2’s spatial prompting be restored in cross-view scenarios?</b></span>
+            </li>
+            <li>
+              <span style="color:#2980B9;"><b>Can spatial prompts and visual prompts complement each other to improve robustness?</b></span>
+            </li>
+          </ul>
+
+          <p>
+            <span style="color:#2980B9;"><b>V²-SAM</b></span> provides affirmative answers by 
+            combining <span style="color:#2980B9;"><b>geometry-aware anchor prompts</b></span> 
+            with <span style="color:#2980B9;"><b>appearance-guided visual prompts</b></span>, 
+            enabling reliable cross-view object correspondence.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Contributions</h2>
+
+        <div class="content has-text-justified">
+          <ul>
+
+            <li>
+              <span style="color:#2980B9;"><b>Unified Cross-View Framework</b></span> —  
+              We present the first framework that adapts 
+              <span style="color:#2980B9;"><b>SAM2</b></span> to cross-view object correspondence 
+              through complementary spatial and visual prompts.
+            </li>
+
+            <li>
+              <span style="color:#2980B9;"><b>Cross-view Anchor Prompt (V²-Anchor)</b></span> —  
+              A geometry-aware module based on DINOv3, enabling  
+              <span style="color:#2980B9;"><b>coordinate-based prompting</b></span> for SAM2 under 
+              drastic viewpoint changes.
+            </li>
+
+            <li>
+              <span style="color:#2980B9;"><b>Cross-view Visual Prompt (V²-Visual)</b></span> —  
+              A novel <span style="color:#2980B9;"><b>Visual Prompt Matcher</b></span> that aligns 
+              cross-view representations from both feature and structural perspectives.
+            </li>
+
+            <li>
+              <span style="color:#2980B9;"><b>Multi-Prompt Experts + PCCS</b></span> —  
+              Three complementary experts (Anchor / Visual / Fusion) and a  
+              <span style="color:#2980B9;"><b>cyclic consistency-based selector</b></span> that 
+              adaptively chooses the most reliable prediction.
+            </li>
+
+            <li>
+              <span style="color:#2980B9;"><b>Extensive Benchmarking</b></span> —  
+              V²-SAM achieves new SOTA on:
+              <ul>
+                <li>Ego-Exo4D</li>
+                <li>DAVIS-2017 (video tracking)</li>
+                <li>HANDAL-X (robotic cross-view transfer)</li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">V²-SAM Framework</h2>
+
+        <div class="content has-text-justified">
+          <center>
+            <img src="./assets/v2sam-framework.png" width="95%" alt="V²-SAM Framework">
+          </center>
+
+          <p style="margin-top: 1rem;">
+            The <span style="color:#2980B9;"><b>V²-SAM</b></span> framework integrates  
+            <span style="color:#2980B9;"><b>V²-Anchor</b></span> (geometry-driven anchor prompting) and  
+            <span style="color:#2980B9;"><b>V²-Visual</b></span> (appearance-guided visual prompting),  
+            together with three prompt experts and the  
+            <span style="color:#2980B9;"><b>PCCS selector</b></span> for robust cross-view segmentation.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Main Results</h2>
+        <div class="content has-text-justified">
+
+          <p>
+            We provide a quantitative comparison of V²-SAM with previous 
+            state-of-the-art cross-view correspondence methods. The table 
+            highlights the strong performance of V²-SAM across Ego–Exo4D, 
+            DAVIS-2017, and HANDAL-X benchmarks.
+          </p>
+
+          <center>
+            <img src="./assets/v2sam-exp-table.png" width="90%" alt="Experimental Table Figure">
+          </center>
+
+          <p>
+            <b>Figure:</b> Quantitative results comparing different methods 
+            on multiple benchmarks. V²-SAM achieves new state-of-the-art 
+            performance under both single-expert and multi-expert settings.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <pre><code>
+@article{pan2025v2sam,
+  title={V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence},
+  author={Pan, Jiancheng and Wang, Runze and Qian, Tianwen and Mahdi, Mohammad and Fu, Yanwei and Xue, Xiangyang and Huang, Xiaomeng and Van Gool, Luc and Paudel, Danda Pani and Fu, Yuqian},
+  journal={arXiv preprint arXiv:2511.20886},
+  year={2025}
+}
+    </code></pre>
+  </div>
+</section>
+
+</body>
+</html>
